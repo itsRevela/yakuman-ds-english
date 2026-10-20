@@ -5,6 +5,13 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+### Added
+
+- README screenshots (`docs/screenshots/`): a featured hand-result screen near the top and a
+  gallery of 23 collapsible, described screenshots of the menus, matches, settings and the
+  Mahjong Dictionary, cropped to the relevant DS screen where only one matters. The README's
+  known limitations now also list the dictionary's untranslated glossary and yaku-list tabs.
+
 ### Changed
 
 - README rewritten for players first: what the patch is, a step-by-step guide to patching with

@@ -8,7 +8,14 @@ English. Mahjong terms follow the English version of *Mahjong Soul* (Riichi, Tsu
 "All Simples" and so on), and characters use their official English names. The tiles themselves
 are left as they are.
 
+<p align="center">
+  <img src="docs/screenshots/hand-result.png" width="360" alt="A hand result in English: Riichi, Fully Concealed and Pinfu for 3 han and 20 fu, worth 2700 points, with each player's score change">
+  <br>
+  <em>A hand result: yaku, fu, han and points, in the same terms as Mahjong Soul.</em>
+</p>
+
 **[Download the latest patch](https://github.com/itsRevela/yakuman-ds-english/releases/latest)**
+&nbsp;·&nbsp; [More screenshots](#screenshots)
 
 ## How to patch your game
 
@@ -79,14 +86,165 @@ ROM, then where to save the English copy.
 - The Mahjong Basics tutorial and the full Mahjong Dictionary (all 220 entries)
 - Challenge Mode, Ranking Mode, the title screen, the opening captions and the wireless menus
 
+## Screenshots
+
+Click or tap a description to show the screenshot.
+
+### Menus
+
+<details>
+<summary><b>Title screen</b>: the <i>Yakuman DS</i> logo is the original artwork and stays as it is</summary>
+<br>
+<img src="docs/screenshots/title-screen.png" width="360" alt="Title screen with the original Yakuman DS logo and PRESS START">
+</details>
+
+<details>
+<summary><b>Opening movie</b>: the characters are introduced with their English names</summary>
+<br>
+<img src="docs/screenshots/opening-captions.png" width="360" alt="Opening movie captions reading Mario and Luigi">
+</details>
+
+<details>
+<summary><b>Save select</b>: your profile card (ranking, games, play time, skill chart) with Play, Character and Delete</summary>
+<br>
+<img src="docs/screenshots/save-select.png" width="360" alt="Select Save Data screen with a profile card and the Play, Character and Delete buttons">
+</details>
+
+<details>
+<summary><b>Main menu</b>: Single Player, Mahjong Basics, Wireless Play, Stats, Options and Dictionary, explained by Professor Lakitu</summary>
+<br>
+<img src="docs/screenshots/main-menu.png" width="360" alt="Main menu with Professor Lakitu explaining Single Player">
+</details>
+
+<details>
+<summary><b>Single-player modes</b>: Free Play, Ranking Mode and Challenge Mode</summary>
+<br>
+<img src="docs/screenshots/single-player-menu.png" width="360" alt="Single-player menu with Free Play, Ranking Mode and Challenge Mode">
+</details>
+
+<details>
+<summary><b>Character select</b>: every opponent has an English profile of how they play</summary>
+<br>
+<img src="docs/screenshots/character-select.png" width="360" alt="Free Play character select with Peach's profile and ability chart">
+</details>
+
+### Matches
+
+<details>
+<summary><b>Riichi prompt</b>: when your hand is ready, the Riichi button appears; the panel shows the round, repeat counter and your score</summary>
+<br>
+<img src="docs/screenshots/riichi-prompt.png" width="360" alt="Bottom screen with the player's hand, the S2 00 Honba round panel and the Riichi button">
+</details>
+
+<details>
+<summary><b>Winning tiles</b>: check which tiles complete your hand and what kind of wait it is</summary>
+<br>
+<img src="docs/screenshots/winning-tiles.png" width="360" alt="Winning Tiles panel showing a two-sided wait and the two winning tiles">
+</details>
+
+<details>
+<summary><b>Calls</b>: other players' calls appear as English shouts, here Pon and Riichi</summary>
+<br>
+<img src="docs/screenshots/call-shouts.png" width="360" alt="The table with Pon and Riichi shouts">
+</details>
+
+<details>
+<summary><b>Tsumo prompt</b>: drawing your winning tile brings up the Tsumo button</summary>
+<br>
+<img src="docs/screenshots/tsumo-prompt.png" width="360" alt="Bottom screen with the Tsumo button">
+</details>
+
+<details>
+<summary><b>Tsumo</b>: declaring a self-drawn win</summary>
+<br>
+<img src="docs/screenshots/tsumo-shout.png" width="360" alt="The table with a Tsumo shout">
+</details>
+
+<details>
+<summary><b>Hand result</b>: the yaku, fu, han, points, riichi and repeat sticks, and every player's score change</summary>
+<br>
+<img src="docs/screenshots/hand-result.png" width="360" alt="Hand result with Riichi, Fully Concealed and Pinfu, 20 fu 3 han, 2700 points">
+</details>
+
+<details>
+<summary><b>Pause screen</b>: game mode, each player's seat wind and score, and the Auto Play, Scores, Options, Dictionary and Suspend buttons</summary>
+<br>
+<img src="docs/screenshots/pause-menu.png" width="360" alt="Pause screen with the Free Play label, seat wind boxes N, E, S and W, and the pause buttons">
+</details>
+
+### Settings
+
+<details>
+<summary><b>Rule settings</b>: house rules such as Open Tanyao, Red 5-Pin, Multiple Ron and the West Round</summary>
+<br>
+<img src="docs/screenshots/rule-settings.png" width="360" alt="Rule Settings page 1 of 3 with each rule switched On or Off">
+</details>
+
+<details>
+<summary><b>Options, page 1</b>: rules, time limit, auto-discard, music, sound effects, voices and character faces</summary>
+<br>
+<img src="docs/screenshots/options-page-1.png" width="360" alt="Option Settings page 1">
+</details>
+
+<details>
+<summary><b>Options, page 2</b>: CPU speed, Open Mode, One-Hand Mode, Support, table color, PictoChat search and hand sorting</summary>
+<br>
+<img src="docs/screenshots/options-page-2.png" width="360" alt="Option Settings page 2">
+</details>
+
+### Mahjong Dictionary
+
+<details>
+<summary><b>Dictionary menu</b>: Glossary, Yaku List, Fu Table and Scores</summary>
+<br>
+<img src="docs/screenshots/dictionary-menu.png" width="360" alt="Mahjong Dictionary menu with Glossary, Yaku List, Fu Table and Scores">
+</details>
+
+<details>
+<summary><b>Glossary</b>: terms are listed by their Japanese names; the kana tabs at the top are still Japanese</summary>
+<br>
+<img src="docs/screenshots/dictionary-glossary.png" width="360" alt="Glossary list of terms such as Chombo, Tsumo, Tenpai and Toitsu">
+</details>
+
+<details>
+<summary><b>Glossary entry</b>: highlighted words link to other entries</summary>
+<br>
+<img src="docs/screenshots/dictionary-glossary-entry.png" width="360" alt="The Tsumo glossary entry linking to Fully Concealed Hand">
+</details>
+
+<details>
+<summary><b>Yaku list</b>: every yaku by han value; the tabs at the top are still Japanese</summary>
+<br>
+<img src="docs/screenshots/dictionary-yaku-list.png" width="360" alt="Yaku List with Riichi, Ippatsu, Fully Concealed Hand, Pinfu, All Simples and more">
+</details>
+
+<details>
+<summary><b>Yaku entry</b>: a full explanation of each yaku, here Riichi</summary>
+<br>
+<img src="docs/screenshots/dictionary-yaku-entry.png" width="360" alt="The Riichi yaku entry: 1 han, closed only, with its rules">
+</details>
+
+<details>
+<summary><b>Fu table</b>: how many fu each way of winning, each wait and each meld is worth</summary>
+<br>
+<img src="docs/screenshots/dictionary-fu-table.png" width="360" alt="Fu Table with Closed Tsumo, Tsumo (Open), Closed Ron and Ron (Open)">
+</details>
+
+<details>
+<summary><b>Score tables</b>: points for every fu and han combination, for the dealer and for other players</summary>
+<br>
+<img src="docs/screenshots/dictionary-scores.png" width="360" alt="Scores (Dealer) table with Ron and Tsumo points for 20 to 50 fu at 1 and 2 han">
+</details>
+
 ## Known limitations
 
 - **DS Download Play guests see Japanese.** Hosting a Download Play game works and the host's
   screens are in English, but the program sent to the other consoles is still Japanese. Nintendo
   signs that program and consoles refuse a modified one, so translating it would break Download
   Play on real hardware.
-- The large embossed title on the dictionary's book cover is part of the background art and is
-  still Japanese.
+- A few graphics in the Mahjong Dictionary are still Japanese: the large embossed title on the
+  book cover (part of the background art), the kana tabs above the glossary, and the han tabs
+  above the yaku list.
 - A few long yaku names are shortened on the hand result screen so they fit next to the han
   count (for example "Pure Dbl. Seq."). The dictionary uses the full names.
 - The patch has been tested in the melonDS emulator.
@@ -104,7 +262,7 @@ only need the steps above.
 | 1. English variable-width font and engine hacks | done (VWF, word wrap, widths, dictionary) |
 | 2. Text insertion pipeline | done |
 | 3. Translation of the main program's strings | done (1,845 strings, name-entry keyboard) |
-| 4. Text graphics | done, except the dictionary book cover art |
+| 4. Text graphics | done, except a few dictionary graphics (book cover, glossary and yaku list tabs) |
 | 5. Download Play child program (`main.srl`) | on hold: it's RSA-signed, and modifying it breaks Download Play on real consoles |
 | 6. In-game QA and releases | v0.1.0 released; QA continues |
 
