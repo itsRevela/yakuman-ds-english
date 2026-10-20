@@ -1,0 +1,17 @@
+{
+  "description": "Save/system dialogs.",
+  "entries": [
+    {"addr": "0210c410", "ja": "な", "en": ""},
+    {"addr": "0210c444", "ja": "中断データが消えますが!よろしいですか？", "en": "Your suspended game will be lost.\nIs that OK?"},
+    {"addr": "0210c46c", "ja": "この内容でデータ登録します。!よろしいですか？", "en": "Register with these details?\nIs that OK?"},
+    {"addr": "0210c49c", "ja": "中断データがあります。!続きからはじめますか？", "en": "You have a suspended game.\nContinue where you left off?"},
+    {"addr": "0210c52c", "ja": "このセーブデータを!完全に削除します。!よろしいですか？", "en": "This save data will be\npermanently deleted.\nIs that OK?"},
+    {"addr": "0210c564", "ja": "中断データが破損しています。!破損したデータを削除します。", "en": "The suspended game data is corrupted.\nThe corrupted data will be deleted."},
+    {"addr": "0210c5a0", "ja": "セーブデータが破損しています。!破損したデータを削除します。", "en": "The save data is corrupted.\nThe corrupted data will be deleted."},
+    {"addr": "0210c5dc", "ja": "プレイヤデータが破損しています。!破損したデータを削除します。", "en": "The player data is corrupted.\nThe corrupted data will be deleted."},
+    {"addr": "0210c61c", "ja": "オプションデータが破損しています。!破損したデータを削除します。", "en": "The options data is corrupted.\nThe corrupted data will be deleted."},
+    {"addr": "0210c6e4", "ja": "キャラクターを変更すると、!ランキングモードの!現在のデータが破棄されます。!（クリアデータは残ります）!よろしいですか？", "en": "Changing your character will discard\nyour current Ranking Mode progress.\n(Clear records are kept.)\nIs that OK?"},
+    {"addr": "0210cc8c", "ja": "かきくけこさしすせそたちつてとはひふへほカキクケコサシスセソタチツテトハヒフヘホ", "en": ""},
+    {"addr": "0210cce0", "ja": "はひふへほハヒフヘホ", "en": ""}
+  ]
+}

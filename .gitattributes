@@ -1,0 +1,2 @@
+# Release patches are binary; never convert line endings
+*.bps binary

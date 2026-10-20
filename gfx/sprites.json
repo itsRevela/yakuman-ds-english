@@ -1,0 +1,4777 @@
+{
+ "comment": "2D sprite sheets in vdata/ (tools/gfx/sprites.py). sprite = [w, h] of each sprite (1D-mapped tiles); rect is relative to the sprite.",
+ "files": {
+  "majan/btn_naki": {
+   "sprite": [
+    64,
+    64
+   ],
+   "comment": "Call buttons: 0-8 grey (inactive), 9-17 orange (active): Pon Chii Kan Ron Tsumo Riichi OpenRiichi NineTerminals Cancel.",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "ポン",
+     "en": "Pon",
+     "style": "naki_gray",
+     "rect": [
+      15,
+      15,
+      34,
+      34
+     ],
+     "erase": {
+      "template": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8
+      ],
+      "outline": [
+       "#000000"
+      ]
+     }
+    },
+    {
+     "sprites": [
+      1
+     ],
+     "ja": "チー",
+     "en": "Chii",
+     "style": "naki_gray",
+     "rect": [
+      15,
+      15,
+      34,
+      34
+     ],
+     "erase": {
+      "template": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8
+      ],
+      "outline": [
+       "#000000"
+      ]
+     }
+    },
+    {
+     "sprites": [
+      2
+     ],
+     "ja": "カン",
+     "en": "Kan",
+     "style": "naki_gray",
+     "rect": [
+      15,
+      15,
+      34,
+      34
+     ],
+     "erase": {
+      "template": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8
+      ],
+      "outline": [
+       "#000000"
+      ]
+     }
+    },
+    {
+     "sprites": [
+      3
+     ],
+     "ja": "ロン",
+     "en": "Ron",
+     "style": "naki_gray",
+     "rect": [
+      15,
+      15,
+      34,
+      34
+     ],
+     "erase": {
+      "template": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8
+      ],
+      "outline": [
+       "#000000"
+      ]
+     }
+    },
+    {
+     "sprites": [
+      4
+     ],
+     "ja": "ツモ",
+     "en": "Tsumo",
+     "style": "naki_gray",
+     "rect": [
+      15,
+      15,
+      34,
+      34
+     ],
+     "erase": {
+      "template": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8
+      ],
+      "outline": [
+       "#000000"
+      ]
+     }
+    },
+    {
+     "sprites": [
+      5
+     ],
+     "ja": "リーチ",
+     "en": "Riichi",
+     "style": "naki_gray",
+     "rect": [
+      15,
+      15,
+      34,
+      34
+     ],
+     "erase": {
+      "template": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8
+      ],
+      "outline": [
+       "#000000"
+      ]
+     }
+    },
+    {
+     "sprites": [
+      6
+     ],
+     "ja": "オープンリーチ",
+     "lines": [
+      "Open",
+      "Riichi"
+     ],
+     "line_height": 12,
+     "style": "naki_gray",
+     "rect": [
+      15,
+      15,
+      34,
+      34
+     ],
+     "erase": {
+      "template": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8
+      ],
+      "outline": [
+       "#000000"
+      ]
+     }
+    },
+    {
+     "sprites": [
+      7
+     ],
+     "ja": "九種九牌",
+     "en": "Abort",
+     "style": "naki_gray",
+     "rect": [
+      15,
+      15,
+      34,
+      34
+     ],
+     "erase": {
+      "template": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8
+      ],
+      "outline": [
+       "#000000"
+      ]
+     }
+    },
+    {
+     "sprites": [
+      9
+     ],
+     "ja": "ポン",
+     "en": "Pon",
+     "style": "naki_orange",
+     "rect": [
+      15,
+      15,
+      34,
+      34
+     ],
+     "erase": {
+      "template": [
+       9,
+       10,
+       11,
+       12,
+       13,
+       14,
+       15,
+       16,
+       17
+      ],
+      "outline": [
+       "#000000"
+      ]
+     }
+    },
+    {
+     "sprites": [
+      10
+     ],
+     "ja": "チー",
+     "en": "Chii",
+     "style": "naki_orange",
+     "rect": [
+      15,
+      15,
+      34,
+      34
+     ],
+     "erase": {
+      "template": [
+       9,
+       10,
+       11,
+       12,
+       13,
+       14,
+       15,
+       16,
+       17
+      ],
+      "outline": [
+       "#000000"
+      ]
+     }
+    },
+    {
+     "sprites": [
+      11
+     ],
+     "ja": "カン",
+     "en": "Kan",
+     "style": "naki_orange",
+     "rect": [
+      15,
+      15,
+      34,
+      34
+     ],
+     "erase": {
+      "template": [
+       9,
+       10,
+       11,
+       12,
+       13,
+       14,
+       15,
+       16,
+       17
+      ],
+      "outline": [
+       "#000000"
+      ]
+     }
+    },
+    {
+     "sprites": [
+      12
+     ],
+     "ja": "ロン",
+     "en": "Ron",
+     "style": "naki_orange",
+     "rect": [
+      15,
+      15,
+      34,
+      34
+     ],
+     "erase": {
+      "template": [
+       9,
+       10,
+       11,
+       12,
+       13,
+       14,
+       15,
+       16,
+       17
+      ],
+      "outline": [
+       "#000000"
+      ]
+     }
+    },
+    {
+     "sprites": [
+      13
+     ],
+     "ja": "ツモ",
+     "en": "Tsumo",
+     "style": "naki_orange",
+     "rect": [
+      15,
+      15,
+      34,
+      34
+     ],
+     "erase": {
+      "template": [
+       9,
+       10,
+       11,
+       12,
+       13,
+       14,
+       15,
+       16,
+       17
+      ],
+      "outline": [
+       "#000000"
+      ]
+     }
+    },
+    {
+     "sprites": [
+      14
+     ],
+     "ja": "リーチ",
+     "en": "Riichi",
+     "style": "naki_orange",
+     "rect": [
+      15,
+      15,
+      34,
+      34
+     ],
+     "erase": {
+      "template": [
+       9,
+       10,
+       11,
+       12,
+       13,
+       14,
+       15,
+       16,
+       17
+      ],
+      "outline": [
+       "#000000"
+      ]
+     }
+    },
+    {
+     "sprites": [
+      15
+     ],
+     "ja": "オープンリーチ",
+     "lines": [
+      "Open",
+      "Riichi"
+     ],
+     "line_height": 12,
+     "style": "naki_orange",
+     "rect": [
+      15,
+      15,
+      34,
+      34
+     ],
+     "erase": {
+      "template": [
+       9,
+       10,
+       11,
+       12,
+       13,
+       14,
+       15,
+       16,
+       17
+      ],
+      "outline": [
+       "#000000"
+      ]
+     }
+    },
+    {
+     "sprites": [
+      16
+     ],
+     "ja": "九種九牌",
+     "en": "Abort",
+     "style": "naki_orange",
+     "rect": [
+      15,
+      15,
+      34,
+      34
+     ],
+     "erase": {
+      "template": [
+       9,
+       10,
+       11,
+       12,
+       13,
+       14,
+       15,
+       16,
+       17
+      ],
+      "outline": [
+       "#000000"
+      ]
+     }
+    }
+   ]
+  },
+  "majan/btn_pause": {
+   "sprite": [
+    64,
+    32
+   ],
+   "comment": "Pause menu buttons: 0-7 normal, 8-15 selected.",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "代打ち",
+     "en": "Auto Play",
+     "style": "pause_off",
+     "rect": [
+      4,
+      4,
+      56,
+      24
+     ],
+     "erase": {
+      "clear": "#000000"
+     }
+    },
+    {
+     "sprites": [
+      1
+     ],
+     "ja": "得点確認",
+     "en": "Scores",
+     "style": "pause_off",
+     "rect": [
+      4,
+      4,
+      56,
+      24
+     ],
+     "erase": {
+      "clear": "#000000"
+     }
+    },
+    {
+     "sprites": [
+      2
+     ],
+     "ja": "順位確認",
+     "en": "Standings",
+     "style": "pause_off",
+     "rect": [
+      4,
+      4,
+      56,
+      24
+     ],
+     "erase": {
+      "clear": "#000000"
+     }
+    },
+    {
+     "sprites": [
+      3
+     ],
+     "ja": "条件確認",
+     "en": "Goal",
+     "style": "pause_off",
+     "rect": [
+      4,
+      4,
+      56,
+      24
+     ],
+     "erase": {
+      "clear": "#000000"
+     }
+    },
+    {
+     "sprites": [
+      4
+     ],
+     "ja": "オプション",
+     "en": "Options",
+     "style": "pause_off",
+     "rect": [
+      4,
+      4,
+      56,
+      24
+     ],
+     "erase": {
+      "clear": "#000000"
+     }
+    },
+    {
+     "sprites": [
+      5
+     ],
+     "ja": "麻雀辞典",
+     "en": "Dictionary",
+     "style": "pause_off",
+     "rect": [
+      4,
+      4,
+      56,
+      24
+     ],
+     "erase": {
+      "clear": "#000000"
+     }
+    },
+    {
+     "sprites": [
+      6
+     ],
+     "ja": "中断",
+     "en": "Suspend",
+     "style": "pause_off",
+     "rect": [
+      4,
+      4,
+      56,
+      24
+     ],
+     "erase": {
+      "clear": "#000000"
+     }
+    },
+    {
+     "sprites": [
+      7
+     ],
+     "ja": "戻る",
+     "en": "Back",
+     "style": "pause_off",
+     "rect": [
+      4,
+      4,
+      56,
+      24
+     ],
+     "erase": {
+      "clear": "#000000"
+     }
+    },
+    {
+     "sprites": [
+      8
+     ],
+     "ja": "代打ち",
+     "en": "Auto Play",
+     "style": "pause_on",
+     "rect": [
+      4,
+      4,
+      56,
+      24
+     ],
+     "erase": {
+      "clear": "#000000"
+     }
+    },
+    {
+     "sprites": [
+      9
+     ],
+     "ja": "得点確認",
+     "en": "Scores",
+     "style": "pause_on",
+     "rect": [
+      4,
+      4,
+      56,
+      24
+     ],
+     "erase": {
+      "clear": "#000000"
+     }
+    },
+    {
+     "sprites": [
+      10
+     ],
+     "ja": "順位確認",
+     "en": "Standings",
+     "style": "pause_on",
+     "rect": [
+      4,
+      4,
+      56,
+      24
+     ],
+     "erase": {
+      "clear": "#000000"
+     }
+    },
+    {
+     "sprites": [
+      11
+     ],
+     "ja": "条件確認",
+     "en": "Goal",
+     "style": "pause_on",
+     "rect": [
+      4,
+      4,
+      56,
+      24
+     ],
+     "erase": {
+      "clear": "#000000"
+     }
+    },
+    {
+     "sprites": [
+      12
+     ],
+     "ja": "オプション",
+     "en": "Options",
+     "style": "pause_on",
+     "rect": [
+      4,
+      4,
+      56,
+      24
+     ],
+     "erase": {
+      "clear": "#000000"
+     }
+    },
+    {
+     "sprites": [
+      13
+     ],
+     "ja": "麻雀辞典",
+     "en": "Dictionary",
+     "style": "pause_on",
+     "rect": [
+      4,
+      4,
+      56,
+      24
+     ],
+     "erase": {
+      "clear": "#000000"
+     }
+    },
+    {
+     "sprites": [
+      14
+     ],
+     "ja": "中断",
+     "en": "Suspend",
+     "style": "pause_on",
+     "rect": [
+      4,
+      4,
+      56,
+      24
+     ],
+     "erase": {
+      "clear": "#000000"
+     }
+    },
+    {
+     "sprites": [
+      15
+     ],
+     "ja": "戻る",
+     "en": "Back",
+     "style": "pause_on",
+     "rect": [
+      4,
+      4,
+      56,
+      24
+     ],
+     "erase": {
+      "clear": "#000000"
+     }
+    }
+   ]
+  },
+  "majan/obj_naki_effect": {
+   "sprite": [
+    64,
+    32
+   ],
+   "comment": "Call shouts shown over the table.",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "ポン",
+     "en": "Pon",
+     "style": "fx_green",
+     "rect": [
+      0,
+      0,
+      64,
+      32
+     ],
+     "erase": {
+      "clear": 0
+     }
+    },
+    {
+     "sprites": [
+      1
+     ],
+     "ja": "チー",
+     "en": "Chii",
+     "style": "fx_green",
+     "rect": [
+      0,
+      0,
+      64,
+      32
+     ],
+     "erase": {
+      "clear": 0
+     }
+    },
+    {
+     "sprites": [
+      2
+     ],
+     "ja": "ロン",
+     "en": "Ron",
+     "style": "fx_orange",
+     "rect": [
+      0,
+      0,
+      64,
+      32
+     ],
+     "erase": {
+      "clear": 0
+     }
+    },
+    {
+     "sprites": [
+      3
+     ],
+     "ja": "カン",
+     "en": "Kan",
+     "style": "fx_green",
+     "rect": [
+      0,
+      0,
+      64,
+      32
+     ],
+     "erase": {
+      "clear": 0
+     }
+    },
+    {
+     "sprites": [
+      4
+     ],
+     "ja": "ツモ",
+     "en": "Tsumo",
+     "style": "fx_orange",
+     "rect": [
+      0,
+      0,
+      64,
+      32
+     ],
+     "erase": {
+      "clear": 0
+     }
+    },
+    {
+     "sprites": [
+      5
+     ],
+     "ja": "リーチ",
+     "en": "Riichi",
+     "style": "fx_magenta",
+     "rect": [
+      0,
+      0,
+      64,
+      32
+     ],
+     "erase": {
+      "clear": 0
+     }
+    },
+    {
+     "sprites": [
+      7
+     ],
+     "ja": "テンパイ",
+     "en": "Tenpai",
+     "style": "fx_blue",
+     "rect": [
+      0,
+      0,
+      64,
+      32
+     ],
+     "erase": {
+      "clear": 0
+     }
+    },
+    {
+     "sprites": [
+      8
+     ],
+     "ja": "ノーテン",
+     "en": "Noten",
+     "style": "fx_blue",
+     "rect": [
+      0,
+      0,
+      64,
+      32
+     ],
+     "erase": {
+      "clear": 0
+     }
+    },
+    {
+     "sprites": [
+      6
+     ],
+     "ja": "オープンリーチ",
+     "lines": [
+      "Open",
+      "Riichi"
+     ],
+     "line_height": 16,
+     "style": "fx_magenta_disp",
+     "rect": [
+      0,
+      0,
+      64,
+      32
+     ],
+     "erase": {
+      "clear": 0
+     }
+    }
+   ]
+  },
+  "majan/btn_common": {
+   "sprite": [
+    64,
+    32
+   ],
+   "comment": "Prompt buttons. The game draws the copy embedded in ARM9 (identical to vdata/majan/btn_common.gcd, which nothing loads); top 16 rows of each sprite, striped background restored row by row.",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "次へ",
+     "en": "Next",
+     "style": "common_btn",
+     "rect": [
+      19,
+      2,
+      43,
+      13
+     ],
+     "erase": {
+      "sample_x": 62
+     }
+    },
+    {
+     "sprites": [
+      1
+     ],
+     "ja": "次へ",
+     "en": "Next",
+     "style": "common_btn",
+     "rect": [
+      19,
+      2,
+      27,
+      13
+     ],
+     "erase": {
+      "sample_x": 46
+     }
+    },
+    {
+     "sprites": [
+      2
+     ],
+     "ja": "もどる",
+     "en": "Back",
+     "style": "common_btn",
+     "rect": [
+      19,
+      2,
+      43,
+      13
+     ],
+     "erase": {
+      "sample_x": 62
+     }
+    },
+    {
+     "sprites": [
+      3
+     ],
+     "ja": "デフォルトにもどす",
+     "en": "Reset",
+     "style": "common_btn",
+     "rect": [
+      33,
+      1,
+      29,
+      15
+     ],
+     "erase": {
+      "sample_x": 62
+     }
+    },
+    {
+     "sprites": [
+      4
+     ],
+     "ja": "終了",
+     "en": "Quit",
+     "style": "common_btn",
+     "rect": [
+      19,
+      2,
+      43,
+      13
+     ],
+     "erase": {
+      "sample_x": 62
+     }
+    },
+    {
+     "sprites": [
+      5
+     ],
+     "ja": "カーソル",
+     "en": "CURSOR",
+     "style": "icon_tiny",
+     "rect": [
+      20,
+      1,
+      42,
+      7
+     ],
+     "erase": {
+      "sample_x": 62
+     }
+    },
+    {
+     "sprites": [
+      6
+     ],
+     "ja": "役の詳細",
+     "en": "Yaku",
+     "style": "common_btn",
+     "rect": [
+      19,
+      2,
+      43,
+      13
+     ],
+     "erase": {
+      "sample_x": 62
+     }
+    },
+    {
+     "sprites": [
+      7
+     ],
+     "ja": "符の詳細",
+     "en": "Fu",
+     "style": "common_btn",
+     "rect": [
+      19,
+      2,
+      43,
+      13
+     ],
+     "erase": {
+      "sample_x": 62
+     }
+    },
+    {
+     "sprites": [
+      8
+     ],
+     "ja": "点数/親",
+     "en": "Dealer",
+     "style": "common_btn",
+     "rect": [
+      19,
+      2,
+      43,
+      13
+     ],
+     "erase": {
+      "sample_x": 62
+     }
+    },
+    {
+     "sprites": [
+      9
+     ],
+     "ja": "点数/子",
+     "en": "Others",
+     "style": "common_btn",
+     "rect": [
+      19,
+      2,
+      43,
+      13
+     ],
+     "erase": {
+      "sample_x": 62
+     }
+    },
+    {
+     "sprites": [
+      10
+     ],
+     "ja": "はい",
+     "en": "Yes",
+     "style": "common_btn",
+     "rect": [
+      19,
+      2,
+      43,
+      13
+     ],
+     "erase": {
+      "sample_x": 62
+     }
+    },
+    {
+     "sprites": [
+      11
+     ],
+     "ja": "いいえ",
+     "en": "No",
+     "style": "common_btn",
+     "rect": [
+      19,
+      2,
+      43,
+      13
+     ],
+     "erase": {
+      "sample_x": 62
+     }
+    }
+   ],
+   "arm9": {
+    "addr": "020b2b68",
+    "size": 12288,
+    "palette": "020b1048",
+    "palette_size": 32
+   }
+  },
+  "majan/btn_msg": {
+   "sprite": [
+    64,
+    32
+   ],
+   "comment": "Yes/No buttons (ARM9-embedded copy; the vdata file is unused): 0-1 normal, 2-3 selected.",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "はい",
+     "en": "Yes",
+     "style": "msg_off",
+     "rect": [
+      3,
+      3,
+      58,
+      18
+     ],
+     "erase": {
+      "clear": "#0000ad"
+     }
+    },
+    {
+     "sprites": [
+      1
+     ],
+     "ja": "いいえ",
+     "en": "No",
+     "style": "msg_off",
+     "rect": [
+      3,
+      3,
+      58,
+      18
+     ],
+     "erase": {
+      "clear": "#0000ad"
+     }
+    },
+    {
+     "sprites": [
+      2
+     ],
+     "ja": "はい",
+     "en": "Yes",
+     "style": "msg_on",
+     "rect": [
+      3,
+      3,
+      58,
+      18
+     ],
+     "erase": {
+      "clear": "#0000ff"
+     }
+    },
+    {
+     "sprites": [
+      3
+     ],
+     "ja": "いいえ",
+     "en": "No",
+     "style": "msg_on",
+     "rect": [
+      3,
+      3,
+      58,
+      18
+     ],
+     "erase": {
+      "clear": "#0000ff"
+     }
+    }
+   ],
+   "arm9": {
+    "addr": "020b1b68",
+    "size": 4096,
+    "palette": "020b1028",
+    "palette_size": 32
+   }
+  },
+  "majan/obj_kaze": {
+   "sprite": [
+    16,
+    16
+   ],
+   "comment": "Seat wind markers.",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "東",
+     "en": "E",
+     "style": "wind_letter",
+     "rect": [
+      1,
+      1,
+      11,
+      11
+     ],
+     "erase": {
+      "clear": "#0094f7"
+     }
+    },
+    {
+     "sprites": [
+      1
+     ],
+     "ja": "南",
+     "en": "S",
+     "style": "wind_letter",
+     "rect": [
+      1,
+      1,
+      11,
+      11
+     ],
+     "erase": {
+      "clear": "#0094f7"
+     }
+    },
+    {
+     "sprites": [
+      2
+     ],
+     "ja": "西",
+     "en": "W",
+     "style": "wind_letter",
+     "rect": [
+      1,
+      1,
+      11,
+      11
+     ],
+     "erase": {
+      "clear": "#0094f7"
+     }
+    },
+    {
+     "sprites": [
+      3
+     ],
+     "ja": "北",
+     "en": "N",
+     "style": "wind_letter",
+     "rect": [
+      1,
+      1,
+      11,
+      11
+     ],
+     "erase": {
+      "clear": "#0094f7"
+     }
+    }
+   ]
+  },
+  "majan/obj_chiicha": {
+   "sprite": [
+    16,
+    16
+   ],
+   "comment": "Starting-dealer (chiicha) marker: each wind in four rotations, one per seat's viewing direction (0, 90, 180, 270 degrees counter-clockwise).",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "東",
+     "en": "E",
+     "style": "wind_letter",
+     "rect": [
+      1,
+      1,
+      11,
+      11
+     ],
+     "erase": {
+      "clear": "#f72921"
+     },
+     "rotate": 0
+    },
+    {
+     "sprites": [
+      1
+     ],
+     "ja": "東",
+     "en": "E",
+     "style": "wind_letter",
+     "rect": [
+      1,
+      1,
+      11,
+      11
+     ],
+     "erase": {
+      "clear": "#f72921"
+     },
+     "rotate": 90
+    },
+    {
+     "sprites": [
+      2
+     ],
+     "ja": "東",
+     "en": "E",
+     "style": "wind_letter",
+     "rect": [
+      1,
+      1,
+      11,
+      11
+     ],
+     "erase": {
+      "clear": "#f72921"
+     },
+     "rotate": 180
+    },
+    {
+     "sprites": [
+      3
+     ],
+     "ja": "東",
+     "en": "E",
+     "style": "wind_letter",
+     "rect": [
+      1,
+      1,
+      11,
+      11
+     ],
+     "erase": {
+      "clear": "#f72921"
+     },
+     "rotate": 270
+    },
+    {
+     "sprites": [
+      4
+     ],
+     "ja": "南",
+     "en": "S",
+     "style": "wind_letter",
+     "rect": [
+      1,
+      1,
+      11,
+      11
+     ],
+     "erase": {
+      "clear": "#f72921"
+     },
+     "rotate": 0
+    },
+    {
+     "sprites": [
+      5
+     ],
+     "ja": "南",
+     "en": "S",
+     "style": "wind_letter",
+     "rect": [
+      1,
+      1,
+      11,
+      11
+     ],
+     "erase": {
+      "clear": "#f72921"
+     },
+     "rotate": 90
+    },
+    {
+     "sprites": [
+      6
+     ],
+     "ja": "南",
+     "en": "S",
+     "style": "wind_letter",
+     "rect": [
+      1,
+      1,
+      11,
+      11
+     ],
+     "erase": {
+      "clear": "#f72921"
+     },
+     "rotate": 180
+    },
+    {
+     "sprites": [
+      7
+     ],
+     "ja": "南",
+     "en": "S",
+     "style": "wind_letter",
+     "rect": [
+      1,
+      1,
+      11,
+      11
+     ],
+     "erase": {
+      "clear": "#f72921"
+     },
+     "rotate": 270
+    },
+    {
+     "sprites": [
+      8
+     ],
+     "ja": "西",
+     "en": "W",
+     "style": "wind_letter",
+     "rect": [
+      1,
+      1,
+      11,
+      11
+     ],
+     "erase": {
+      "clear": "#f72921"
+     },
+     "rotate": 0
+    },
+    {
+     "sprites": [
+      9
+     ],
+     "ja": "西",
+     "en": "W",
+     "style": "wind_letter",
+     "rect": [
+      1,
+      1,
+      11,
+      11
+     ],
+     "erase": {
+      "clear": "#f72921"
+     },
+     "rotate": 90
+    },
+    {
+     "sprites": [
+      10
+     ],
+     "ja": "西",
+     "en": "W",
+     "style": "wind_letter",
+     "rect": [
+      1,
+      1,
+      11,
+      11
+     ],
+     "erase": {
+      "clear": "#f72921"
+     },
+     "rotate": 180
+    },
+    {
+     "sprites": [
+      11
+     ],
+     "ja": "西",
+     "en": "W",
+     "style": "wind_letter",
+     "rect": [
+      1,
+      1,
+      11,
+      11
+     ],
+     "erase": {
+      "clear": "#f72921"
+     },
+     "rotate": 270
+    },
+    {
+     "sprites": [
+      12
+     ],
+     "ja": "北",
+     "en": "N",
+     "style": "wind_letter",
+     "rect": [
+      1,
+      1,
+      11,
+      11
+     ],
+     "erase": {
+      "clear": "#f72921"
+     },
+     "rotate": 0
+    },
+    {
+     "sprites": [
+      13
+     ],
+     "ja": "北",
+     "en": "N",
+     "style": "wind_letter",
+     "rect": [
+      1,
+      1,
+      11,
+      11
+     ],
+     "erase": {
+      "clear": "#f72921"
+     },
+     "rotate": 90
+    },
+    {
+     "sprites": [
+      14
+     ],
+     "ja": "北",
+     "en": "N",
+     "style": "wind_letter",
+     "rect": [
+      1,
+      1,
+      11,
+      11
+     ],
+     "erase": {
+      "clear": "#f72921"
+     },
+     "rotate": 180
+    },
+    {
+     "sprites": [
+      15
+     ],
+     "ja": "北",
+     "en": "N",
+     "style": "wind_letter",
+     "rect": [
+      1,
+      1,
+      11,
+      11
+     ],
+     "erase": {
+      "clear": "#f72921"
+     },
+     "rotate": 270
+    }
+   ]
+  },
+  "majan/obj_strIcon": {
+   "sprite": [
+    32,
+    32
+   ],
+   "comment": "Player status icons.",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "片手",
+     "lines": [
+      "ONE",
+      "HAND"
+     ],
+     "line_height": 7,
+     "style": "icon_tiny",
+     "rect": [
+      2,
+      2,
+      20,
+      19
+     ],
+     "erase": {
+      "clear": "#ff4a00"
+     }
+    },
+    {
+     "sprites": [
+      1
+     ],
+     "ja": "代打",
+     "en": "AUTO",
+     "style": "icon_tiny",
+     "rect": [
+      2,
+      2,
+      20,
+      19
+     ],
+     "erase": {
+      "clear": "#00bd31"
+     }
+    },
+    {
+     "sprites": [
+      2
+     ],
+     "ja": "二翻",
+     "en": "2HAN",
+     "style": "icon_tiny",
+     "rect": [
+      2,
+      2,
+      20,
+      19
+     ],
+     "erase": {
+      "clear": "#0000ff"
+     }
+    }
+   ]
+  },
+  "majan/obj_strPnl": {
+   "sprite": [
+    64,
+    32
+   ],
+   "comment": "Rule notices.",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "二翻縛り",
+     "en": "2-Han Min.",
+     "style": "panel_text",
+     "rect": [
+      2,
+      5,
+      59,
+      21
+     ],
+     "erase": {
+      "clear": "#e70010"
+     }
+    },
+    {
+     "sprites": [
+      1
+     ],
+     "ja": "頭ハネ",
+     "en": "Atama Hane",
+     "style": "panel_text",
+     "rect": [
+      2,
+      5,
+      59,
+      21
+     ],
+     "erase": {
+      "clear": "#e70010"
+     }
+    }
+   ]
+  },
+  "majan/obj_strAgari1": {
+   "sprite": [
+    64,
+    64
+   ],
+   "comment": "Gold limit banner 役満: drawn as [役][満].",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "役",
+     "en": "YAKU",
+     "cells": true,
+     "style": "agari_gold",
+     "rect": [
+      0,
+      0,
+      64,
+      64
+     ],
+     "erase": {
+      "clear": 0
+     }
+    },
+    {
+     "sprites": [
+      1
+     ],
+     "ja": "満",
+     "en": "MAN",
+     "cells": true,
+     "style": "agari_gold",
+     "rect": [
+      0,
+      0,
+      64,
+      64
+     ],
+     "erase": {
+      "clear": 0
+     }
+    }
+   ]
+  },
+  "majan/obj_strAgari2": {
+   "sprite": [
+    64,
+    64
+   ],
+   "comment": "Silver limit banners built from 跳/満/三/倍: [跳][満] Haneman, [倍][満] Baiman, [三][倍][満] Sanbaiman; the romaji splits at the same places.",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "跳",
+     "en": "HANE",
+     "cells": true,
+     "style": "agari_silver",
+     "rect": [
+      0,
+      0,
+      64,
+      64
+     ],
+     "erase": {
+      "clear": 0
+     }
+    },
+    {
+     "sprites": [
+      1
+     ],
+     "ja": "満",
+     "en": "MAN",
+     "cells": true,
+     "style": "agari_silver",
+     "rect": [
+      0,
+      0,
+      64,
+      64
+     ],
+     "erase": {
+      "clear": 0
+     }
+    },
+    {
+     "sprites": [
+      2
+     ],
+     "ja": "三",
+     "en": "SAN",
+     "cells": true,
+     "style": "agari_silver",
+     "rect": [
+      0,
+      0,
+      64,
+      64
+     ],
+     "erase": {
+      "clear": 0
+     }
+    },
+    {
+     "sprites": [
+      3
+     ],
+     "ja": "倍",
+     "en": "BAI",
+     "cells": true,
+     "style": "agari_silver",
+     "rect": [
+      0,
+      0,
+      64,
+      64
+     ],
+     "erase": {
+      "clear": 0
+     }
+    }
+   ]
+  },
+  "majan/obj_strAgari3": {
+   "sprite": [
+    64,
+    64
+   ],
+   "comment": "Bronze limit banner 満貫: drawn as [満][貫].",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "満",
+     "en": "MAN",
+     "cells": true,
+     "style": "agari_bronze",
+     "rect": [
+      0,
+      0,
+      64,
+      64
+     ],
+     "erase": {
+      "clear": 0
+     }
+    },
+    {
+     "sprites": [
+      1
+     ],
+     "ja": "貫",
+     "en": "GAN",
+     "cells": true,
+     "style": "agari_bronze",
+     "rect": [
+      0,
+      0,
+      64,
+      64
+     ],
+     "erase": {
+      "clear": 0
+     }
+    }
+   ]
+  },
+  "arm9/round_banner": {
+   "arm9": {
+    "addr": "020b8320",
+    "size": 3840,
+    "palette": "020b8120",
+    "palette_size": 512
+   },
+   "layout": "bitmap",
+   "sprite": [
+    160,
+    48
+   ],
+   "bpp": 4,
+   "comment": "Glyph sheet for the round banner (e.g. 東一局００本場) composed from 16x16 cells: winds and numbers (row 0), 局 本 場 オ ー ラ ス (row 1), digits (row 2). Wind letters sit right and numbers left in their cells so they read 'E1'; 局 is blank.",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "東",
+     "en": "E",
+     "style": "round_glyph",
+     "rect": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "align": "right",
+     "pad": 1
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "南",
+     "en": "S",
+     "style": "round_glyph",
+     "rect": [
+      16,
+      0,
+      16,
+      16
+     ],
+     "align": "right",
+     "pad": 1
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "西",
+     "en": "W",
+     "style": "round_glyph",
+     "rect": [
+      32,
+      0,
+      16,
+      16
+     ],
+     "align": "right",
+     "pad": 1
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "北",
+     "en": "N",
+     "style": "round_glyph",
+     "rect": [
+      48,
+      0,
+      16,
+      16
+     ],
+     "align": "right",
+     "pad": 1
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "一",
+     "en": "1",
+     "style": "round_glyph",
+     "rect": [
+      64,
+      0,
+      16,
+      16
+     ],
+     "align": "left",
+     "pad": 1
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "二",
+     "en": "2",
+     "style": "round_glyph",
+     "rect": [
+      80,
+      0,
+      16,
+      16
+     ],
+     "align": "left",
+     "pad": 1
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "三",
+     "en": "3",
+     "style": "round_glyph",
+     "rect": [
+      96,
+      0,
+      16,
+      16
+     ],
+     "align": "left",
+     "pad": 1
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "四",
+     "en": "4",
+     "style": "round_glyph",
+     "rect": [
+      112,
+      0,
+      16,
+      16
+     ],
+     "align": "left",
+     "pad": 1
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "局",
+     "rect": [
+      0,
+      16,
+      16,
+      16
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "本場",
+     "en": "Honba",
+     "style": "round_glyph",
+     "rect": [
+      16,
+      16,
+      32,
+      16
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "オーラス",
+     "en": "All Last",
+     "style": "round_glyph",
+     "rect": [
+      48,
+      16,
+      64,
+      16
+     ]
+    }
+   ]
+  },
+  "dict/dicup0": {
+   "ext": "gbd",
+   "layout": "bitmap",
+   "sprite": [
+    256,
+    192
+   ],
+   "bpp": 8,
+   "palette": "dict/dicup0",
+   "comment": "Dictionary title screen: title on the black band between the white lines (rows 71-120).",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "麻雀辞典",
+     "en": "Mahjong Dictionary",
+     "style": "dict_title",
+     "rect": [
+      0,
+      71,
+      256,
+      50
+     ],
+     "erase": {
+      "inpaint": {
+       "warm": true,
+       "grow": 2
+      }
+     }
+    }
+   ]
+  },
+  "dict/dicup1": {
+   "ext": "gbd",
+   "layout": "bitmap",
+   "sprite": [
+    256,
+    192
+   ],
+   "bpp": 8,
+   "palette": "dict/dicup1",
+   "comment": "Dictionary title screen: title on the black band between the white lines (rows 71-120).",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "麻雀辞典",
+     "en": "Mahjong Dictionary",
+     "style": "dict_title",
+     "rect": [
+      0,
+      71,
+      256,
+      50
+     ],
+     "erase": {
+      "inpaint": {
+       "warm": true,
+       "grow": 2
+      }
+     }
+    }
+   ]
+  },
+  "dict/dicup2": {
+   "ext": "gbd",
+   "layout": "bitmap",
+   "sprite": [
+    256,
+    192
+   ],
+   "bpp": 8,
+   "palette": "dict/dicup0",
+   "comment": "Dictionary title screen: title on the black band between the white lines (rows 71-120).",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "アガリ役一覧表",
+     "en": "Yaku List",
+     "style": "dict_title",
+     "rect": [
+      0,
+      71,
+      256,
+      50
+     ],
+     "erase": {
+      "inpaint": {
+       "warm": true,
+       "grow": 2
+      }
+     }
+    }
+   ]
+  },
+  "dict/dicup3": {
+   "ext": "gbd",
+   "layout": "bitmap",
+   "sprite": [
+    256,
+    192
+   ],
+   "bpp": 8,
+   "palette": "dict/dicup0",
+   "comment": "Dictionary title screen: title on the black band between the white lines (rows 71-120).",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "符一覧表",
+     "en": "Fu Table",
+     "style": "dict_title",
+     "rect": [
+      0,
+      71,
+      256,
+      50
+     ],
+     "erase": {
+      "inpaint": {
+       "warm": true,
+       "grow": 2
+      }
+     }
+    }
+   ]
+  },
+  "dict/dicup4": {
+   "ext": "gbd",
+   "layout": "bitmap",
+   "sprite": [
+    256,
+    192
+   ],
+   "bpp": 8,
+   "palette": "dict/dicup0",
+   "comment": "Dictionary title screen: title on the black band between the white lines (rows 71-120).",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "点数表(親)",
+     "en": "Scores (Dealer)",
+     "style": "dict_title",
+     "rect": [
+      0,
+      71,
+      256,
+      50
+     ],
+     "erase": {
+      "inpaint": {
+       "warm": true,
+       "grow": 2
+      }
+     }
+    }
+   ]
+  },
+  "dict/dicup5": {
+   "ext": "gbd",
+   "layout": "bitmap",
+   "sprite": [
+    256,
+    192
+   ],
+   "bpp": 8,
+   "palette": "dict/dicup0",
+   "comment": "Dictionary title screen: title on the black band between the white lines (rows 71-120).",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "点数表(子)",
+     "en": "Scores (Non-dealer)",
+     "style": "dict_title",
+     "rect": [
+      0,
+      71,
+      256,
+      50
+     ],
+     "erase": {
+      "inpaint": {
+       "warm": true,
+       "grow": 2
+      }
+     }
+    }
+   ]
+  },
+  "dict/dicup6": {
+   "ext": "gbd",
+   "layout": "bitmap",
+   "sprite": [
+    256,
+    192
+   ],
+   "bpp": 8,
+   "palette": "dict/dicup0",
+   "comment": "Framed page with a small heading on the frame's top line (y 32).",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "麻雀辞典",
+     "en": "Dictionary",
+     "style": "dict_header",
+     "rect": [
+      12,
+      18,
+      140,
+      27
+     ],
+     "erase": {
+      "inpaint": {
+       "bright": 250,
+       "grow": 2
+      }
+     },
+     "hlines": [
+      [
+       12,
+       16,
+       32,
+       191
+      ],
+      [
+       98,
+       152,
+       32,
+       191
+      ]
+     ],
+     "text_rect": [
+      18,
+      24,
+      134,
+      16
+     ],
+     "align": "left"
+    }
+   ]
+  },
+  "dict/dicup7": {
+   "ext": "gbd",
+   "layout": "bitmap",
+   "sprite": [
+    256,
+    192
+   ],
+   "bpp": 8,
+   "palette": "dict/dicup1",
+   "comment": "Framed page with a small heading on the frame's top line (y 32).",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "アガリ役",
+     "en": "Yaku",
+     "style": "dict_header",
+     "rect": [
+      12,
+      18,
+      140,
+      27
+     ],
+     "erase": {
+      "inpaint": {
+       "bright": 450,
+       "grow": 2
+      }
+     },
+     "hlines": [
+      [
+       12,
+       16,
+       32,
+       191
+      ],
+      [
+       56,
+       152,
+       32,
+       191
+      ]
+     ],
+     "text_rect": [
+      18,
+      24,
+      134,
+      16
+     ],
+     "align": "left"
+    }
+   ]
+  },
+  "dict/dic_menu_button": {
+   "ext": "gbd",
+   "layout": "interleaved",
+   "sprite": [
+    256,
+    128
+   ],
+   "bpp": 4,
+   "comment": "Dictionary top menu buttons (128x32): two images stored on alternate rows. Even rows: Glossary / Yaku List, odd rows: Fu Table / Scores; top half normal, bottom half selected.",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "用語集",
+     "en": "Glossary",
+     "style": "dict_menu_off",
+     "rect": [
+      5,
+      5,
+      118,
+      22
+     ],
+     "erase": {
+      "clear": "#000000"
+     }
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "アガリ役一覧",
+     "en": "Yaku List",
+     "style": "dict_menu_off",
+     "rect": [
+      133,
+      5,
+      118,
+      22
+     ],
+     "erase": {
+      "clear": "#000000"
+     }
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "用語集",
+     "en": "Glossary",
+     "style": "dict_menu_on",
+     "rect": [
+      5,
+      37,
+      118,
+      22
+     ],
+     "erase": {
+      "clear": "#000000"
+     }
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "アガリ役一覧",
+     "en": "Yaku List",
+     "style": "dict_menu_on",
+     "rect": [
+      133,
+      37,
+      118,
+      22
+     ],
+     "erase": {
+      "clear": "#000000"
+     }
+    },
+    {
+     "sprites": [
+      1
+     ],
+     "ja": "符一覧",
+     "en": "Fu Table",
+     "style": "dict_menu_off",
+     "rect": [
+      5,
+      5,
+      118,
+      22
+     ],
+     "erase": {
+      "clear": "#000000"
+     }
+    },
+    {
+     "sprites": [
+      1
+     ],
+     "ja": "点数表",
+     "en": "Scores",
+     "style": "dict_menu_off",
+     "rect": [
+      133,
+      5,
+      118,
+      22
+     ],
+     "erase": {
+      "clear": "#000000"
+     }
+    },
+    {
+     "sprites": [
+      1
+     ],
+     "ja": "符一覧",
+     "en": "Fu Table",
+     "style": "dict_menu_on",
+     "rect": [
+      5,
+      37,
+      118,
+      22
+     ],
+     "erase": {
+      "clear": "#000000"
+     }
+    },
+    {
+     "sprites": [
+      1
+     ],
+     "ja": "点数表",
+     "en": "Scores",
+     "style": "dict_menu_on",
+     "rect": [
+      133,
+      37,
+      118,
+      22
+     ],
+     "erase": {
+      "clear": "#000000"
+     }
+    }
+   ]
+  },
+  "dict/dicdown3": {
+   "ext": "gbd",
+   "layout": "bitmap",
+   "sprite": [
+    256,
+    192
+   ],
+   "bpp": 8,
+   "palette": "dict/dicdown0",
+   "comment": "Fu table page. Text is erased by palette index (yellow 175 / white 207 plus a 1 px ring) and refilled from the same row, which keeps the page's shading; tile pictures are left alone.",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "アガリの符",
+     "en": "Win Fu",
+     "style": "dict_tab_on",
+     "rect": [
+      42,
+      9,
+      52,
+      12
+     ],
+     "erase": {
+      "clear": 99
+     }
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "待ちの符",
+     "en": "Wait Fu",
+     "style": "dict_tab_off",
+     "rect": [
+      102,
+      9,
+      52,
+      12
+     ],
+     "erase": {
+      "clear": 64
+     }
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "面子の符",
+     "en": "Meld Fu",
+     "style": "dict_tab_off",
+     "rect": [
+      162,
+      9,
+      52,
+      12
+     ],
+     "erase": {
+      "clear": 64
+     }
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "アガリの名称",
+     "en": "Win Type",
+     "style": "dict_white",
+     "rect": [
+      51,
+      51,
+      74,
+      15
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        207
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      28,
+      50,
+      118,
+      16
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "符",
+     "en": "Fu",
+     "style": "dict_white",
+     "rect": [
+      182,
+      51,
+      14,
+      15
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        207
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      148,
+      50,
+      80,
+      16
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "面前ツモ",
+     "en": "Closed Tsumo",
+     "style": "dict_yellow",
+     "rect": [
+      60,
+      69,
+      53,
+      15
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        175
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      28,
+      67,
+      118,
+      16
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "ツモ（副露時）",
+     "en": "Tsumo (Open)",
+     "style": "dict_yellow",
+     "rect": [
+      46,
+      87,
+      82,
+      15
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        175
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      28,
+      85,
+      118,
+      16
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "面前ロン",
+     "en": "Closed Ron",
+     "style": "dict_yellow",
+     "rect": [
+      60,
+      104,
+      53,
+      15
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        175
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      28,
+      103,
+      118,
+      16
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "ロン（副露時）",
+     "en": "Ron (Open)",
+     "style": "dict_yellow",
+     "rect": [
+      47,
+      123,
+      81,
+      15
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        175
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      28,
+      121,
+      118,
+      16
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "2符",
+     "en": "2 fu",
+     "style": "dict_white",
+     "rect": [
+      181,
+      69,
+      20,
+      15
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        207
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      148,
+      67,
+      80,
+      16
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "2符",
+     "en": "2 fu",
+     "style": "dict_white",
+     "rect": [
+      181,
+      87,
+      20,
+      15
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        207
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      148,
+      85,
+      80,
+      16
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "10符",
+     "en": "10 fu",
+     "style": "dict_white",
+     "rect": [
+      176,
+      105,
+      25,
+      15
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        207
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      148,
+      103,
+      80,
+      16
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "0符",
+     "en": "0 fu",
+     "style": "dict_white",
+     "rect": [
+      181,
+      123,
+      20,
+      15
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        207
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      148,
+      121,
+      80,
+      16
+     ]
+    }
+   ]
+  },
+  "dict/dicdown4": {
+   "ext": "gbd",
+   "layout": "bitmap",
+   "sprite": [
+    256,
+    192
+   ],
+   "bpp": 8,
+   "palette": "dict/dicdown0",
+   "comment": "Fu table page. Text is erased by palette index (yellow 175 / white 207 plus a 1 px ring) and refilled from the same row, which keeps the page's shading; tile pictures are left alone.",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "アガリの符",
+     "en": "Win Fu",
+     "style": "dict_tab_off",
+     "rect": [
+      42,
+      9,
+      52,
+      12
+     ],
+     "erase": {
+      "clear": 64
+     }
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "待ちの符",
+     "en": "Wait Fu",
+     "style": "dict_tab_on",
+     "rect": [
+      102,
+      9,
+      52,
+      12
+     ],
+     "erase": {
+      "clear": 99
+     }
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "面子の符",
+     "en": "Meld Fu",
+     "style": "dict_tab_off",
+     "rect": [
+      162,
+      9,
+      52,
+      12
+     ],
+     "erase": {
+      "clear": 64
+     }
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "待ちの名称",
+     "en": "Wait",
+     "style": "dict_white",
+     "rect": [
+      16,
+      39,
+      63,
+      15
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        207
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      16,
+      37,
+      64,
+      18
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "待ち牌",
+     "en": "Wait Tile",
+     "style": "dict_white",
+     "rect": [
+      164,
+      39,
+      39,
+      15
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        207
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      157,
+      37,
+      50,
+      18
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "符",
+     "en": "Fu",
+     "style": "dict_white",
+     "rect": [
+      218,
+      39,
+      14,
+      15
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        207
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      210,
+      37,
+      30,
+      18
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "両面待ち",
+     "en": "Two-sided",
+     "style": "dict_yellow",
+     "rect": [
+      16,
+      58,
+      63,
+      16
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        175
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      16,
+      57,
+      64,
+      18
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "両面待ちの符",
+     "en": "0 fu",
+     "style": "dict_white",
+     "rect": [
+      218,
+      58,
+      20,
+      15
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        207
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      210,
+      57,
+      30,
+      18
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "シャボ待ち",
+     "en": "Dual-pon",
+     "style": "dict_yellow",
+     "rect": [
+      16,
+      77,
+      63,
+      16
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        175
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      16,
+      76,
+      64,
+      18
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "シャボ待ちの符",
+     "en": "0 fu",
+     "style": "dict_white",
+     "rect": [
+      218,
+      77,
+      20,
+      15
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        207
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      210,
+      76,
+      30,
+      18
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "嵌張待ち",
+     "en": "Closed",
+     "style": "dict_yellow",
+     "rect": [
+      16,
+      96,
+      63,
+      16
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        175
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      16,
+      95,
+      64,
+      18
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "嵌張待ちの符",
+     "en": "2 fu",
+     "style": "dict_white",
+     "rect": [
+      218,
+      96,
+      20,
+      15
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        207
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      210,
+      95,
+      30,
+      18
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "辺張待ち",
+     "en": "Edge",
+     "style": "dict_yellow",
+     "rect": [
+      16,
+      115,
+      63,
+      16
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        175
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      16,
+      114,
+      64,
+      18
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "辺張待ちの符",
+     "en": "2 fu",
+     "style": "dict_white",
+     "rect": [
+      218,
+      115,
+      20,
+      15
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        207
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      210,
+      114,
+      30,
+      18
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "単騎待ち",
+     "en": "Single",
+     "style": "dict_yellow",
+     "rect": [
+      16,
+      134,
+      63,
+      16
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        175
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      16,
+      133,
+      64,
+      18
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "単騎待ちの符",
+     "en": "2 fu",
+     "style": "dict_white",
+     "rect": [
+      218,
+      134,
+      20,
+      15
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        207
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      210,
+      133,
+      30,
+      18
+     ]
+    }
+   ]
+  },
+  "dict/dicdown5": {
+   "ext": "gbd",
+   "layout": "bitmap",
+   "sprite": [
+    256,
+    192
+   ],
+   "bpp": 8,
+   "palette": "dict/dicdown0",
+   "comment": "Fu table page. Text is erased by palette index (yellow 175 / white 207 plus a 1 px ring) and refilled from the same row, which keeps the page's shading; tile pictures are left alone.",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "アガリの符",
+     "en": "Win Fu",
+     "style": "dict_tab_off",
+     "rect": [
+      42,
+      9,
+      52,
+      12
+     ],
+     "erase": {
+      "clear": 64
+     }
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "待ちの符",
+     "en": "Wait Fu",
+     "style": "dict_tab_off",
+     "rect": [
+      102,
+      9,
+      52,
+      12
+     ],
+     "erase": {
+      "clear": 64
+     }
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "面子の符",
+     "en": "Meld Fu",
+     "style": "dict_tab_on",
+     "rect": [
+      162,
+      9,
+      52,
+      12
+     ],
+     "erase": {
+      "clear": 99
+     }
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "明刻",
+     "lines": [
+      "OPEN",
+      "TRIPLET"
+     ],
+     "line_height": 6,
+     "style": "dict_tiny_yellow",
+     "rect": [
+      69,
+      34,
+      27,
+      15
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        175
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      61,
+      33,
+      45,
+      17
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "暗刻",
+     "lines": [
+      "CLOSED",
+      "TRIPLET"
+     ],
+     "line_height": 6,
+     "style": "dict_tiny_yellow",
+     "rect": [
+      113,
+      34,
+      28,
+      15
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        175
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      106,
+      33,
+      45,
+      17
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "明槓",
+     "lines": [
+      "OPEN",
+      "KAN"
+     ],
+     "line_height": 6,
+     "style": "dict_tiny_yellow",
+     "rect": [
+      159,
+      34,
+      27,
+      15
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        175
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      151,
+      33,
+      45,
+      17
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "暗槓",
+     "lines": [
+      "CLOSED",
+      "KAN"
+     ],
+     "line_height": 6,
+     "style": "dict_tiny_yellow",
+     "rect": [
+      203,
+      34,
+      28,
+      15
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        175
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      196,
+      33,
+      45,
+      17
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "么九牌",
+     "lines": [
+      "Terminal",
+      "& Honor"
+     ],
+     "line_height": 12,
+     "style": "dict_yellow",
+     "rect": [
+      18,
+      60,
+      40,
+      15
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        175
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      16,
+      52,
+      45,
+      32
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "中張牌",
+     "en": "Simples",
+     "style": "dict_yellow",
+     "rect": [
+      18,
+      96,
+      39,
+      15
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        175
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      16,
+      95,
+      45,
+      18
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "雀頭",
+     "en": "Pair",
+     "style": "dict_yellow",
+     "rect": [
+      23,
+      132,
+      28,
+      15
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        175
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      16,
+      131,
+      45,
+      18
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "符",
+     "en": "4 fu",
+     "style": "dict_white",
+     "rect": [
+      73,
+      72,
+      22,
+      14
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        207
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      61,
+      72,
+      45,
+      14
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "符",
+     "en": "8 fu",
+     "style": "dict_white",
+     "rect": [
+      118,
+      72,
+      22,
+      14
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        207
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      106,
+      72,
+      45,
+      14
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "符",
+     "en": "16 fu",
+     "style": "dict_white",
+     "rect": [
+      156,
+      72,
+      37,
+      14
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        207
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      151,
+      72,
+      45,
+      14
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "符",
+     "en": "32 fu",
+     "style": "dict_white",
+     "rect": [
+      203,
+      72,
+      30,
+      14
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        207
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      196,
+      72,
+      45,
+      14
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "符",
+     "en": "2 fu",
+     "style": "dict_white",
+     "rect": [
+      73,
+      108,
+      22,
+      14
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        207
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      61,
+      108,
+      45,
+      14
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "符",
+     "en": "4 fu",
+     "style": "dict_white",
+     "rect": [
+      118,
+      108,
+      22,
+      14
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        207
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      106,
+      108,
+      45,
+      14
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "符",
+     "en": "8 fu",
+     "style": "dict_white",
+     "rect": [
+      156,
+      108,
+      25,
+      14
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        207
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      151,
+      108,
+      45,
+      14
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "符",
+     "en": "16 fu",
+     "style": "dict_white",
+     "rect": [
+      205,
+      108,
+      28,
+      14
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        207
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      196,
+      108,
+      45,
+      14
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "三元牌",
+     "en": "Dragon",
+     "style": "dict_yellow",
+     "rect": [
+      71,
+      124,
+      39,
+      15
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        175
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      61,
+      123,
+      60,
+      16
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "自風牌",
+     "en": "Seat Wind",
+     "style": "dict_yellow",
+     "rect": [
+      132,
+      124,
+      38,
+      15
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        175
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      121,
+      123,
+      60,
+      16
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "場風牌",
+     "en": "Prev. Wind",
+     "style": "dict_yellow",
+     "rect": [
+      191,
+      124,
+      40,
+      15
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        175
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      181,
+      123,
+      60,
+      16
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "2符",
+     "en": "2 fu",
+     "style": "dict_white",
+     "rect": [
+      93,
+      142,
+      22,
+      14
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        207
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      88,
+      141,
+      32,
+      16
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "2符",
+     "en": "2 fu",
+     "style": "dict_white",
+     "rect": [
+      153,
+      142,
+      22,
+      14
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        207
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      148,
+      141,
+      32,
+      16
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "2符",
+     "en": "2 fu",
+     "style": "dict_white",
+     "rect": [
+      213,
+      142,
+      22,
+      14
+     ],
+     "erase": {
+      "inpaint": {
+       "indices": [
+        207
+       ],
+       "grow": 1
+      }
+     },
+     "text_rect": [
+      208,
+      141,
+      32,
+      16
+     ]
+    }
+   ]
+  },
+  "guide/bg_guide_title": {
+   "ext": "gbd",
+   "layout": "bitmap",
+   "sprite": [
+    80,
+    96
+   ],
+   "bpp": 8,
+   "comment": "Tutorial heading sheet: 80x24 rows 麻雀入門 / Step1 / Step2 / Step3 (only the first is Japanese). Mahjong Basics does not fit 80 px at heading size, so it reads Basics.",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "麻雀入門",
+     "en": "Basics",
+     "style": "guide_title",
+     "rect": [
+      0,
+      0,
+      80,
+      24
+     ],
+     "align": "left",
+     "pad": 1
+    }
+   ]
+  },
+  "arm9/pause_mode_label": {
+   "arm9": {
+    "addr": "020bea30",
+    "size": 3456,
+    "palette": "020c9b80",
+    "palette_size": 32
+   },
+   "layout": "bitmap",
+   "sprite": [
+    72,
+    96
+   ],
+   "bpp": 4,
+   "comment": "Match pause/standings overlay, top-left game-mode label (func_02087c80 blits one 72x32 cell at (10,16); cell 0 is drawn 8 px lower because it holds a single line). Cells: 0 Free Play, 1 Ranking Mode, 2 Challenge Mode. Each second line is drawn over the first line's bottom ring, as in the original.",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "フリー対局",
+     "en": "Free Play",
+     "style": "pause_mode",
+     "rect": [
+      0,
+      0,
+      72,
+      32
+     ],
+     "erase": {
+      "clear": 0
+     },
+     "text_rect": [
+      0,
+      0,
+      72,
+      17
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "ランキング",
+     "en": "Ranking",
+     "style": "pause_mode",
+     "rect": [
+      0,
+      32,
+      72,
+      32
+     ],
+     "erase": {
+      "clear": 0
+     },
+     "text_rect": [
+      0,
+      32,
+      72,
+      17
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "対局",
+     "en": "Mode",
+     "style": "pause_mode",
+     "rect": [
+      0,
+      48,
+      72,
+      15
+     ],
+     "erase": {
+      "none": true
+     },
+     "text_rect": [
+      0,
+      48,
+      72,
+      15
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "チャレンジ",
+     "en": "Challenge",
+     "style": "pause_mode",
+     "rect": [
+      0,
+      64,
+      72,
+      32
+     ],
+     "erase": {
+      "clear": 0
+     },
+     "text_rect": [
+      0,
+      64,
+      72,
+      17
+     ]
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "対局",
+     "en": "Mode",
+     "style": "pause_mode",
+     "rect": [
+      0,
+      80,
+      72,
+      15
+     ],
+     "erase": {
+      "none": true
+     },
+     "text_rect": [
+      0,
+      80,
+      72,
+      15
+     ]
+    }
+   ]
+  },
+  "arm9/pause_wind": {
+   "arm9": {
+    "addr": "020bf7b0",
+    "size": 12800,
+    "palette": "020c6ac0",
+    "palette_size": 512
+   },
+   "layout": "bitmap",
+   "sprite": [
+    160,
+    80
+   ],
+   "bpp": 8,
+   "comment": "Match pause/standings overlay: 40x40 seat-wind boxes beside each player's portrait (func_02087c80). Column = wind (E S W N); row 0 is the player's blue box, row 1 the opponents' pink box. The 34x34 interior is a flat fill, cleared and redrawn.",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "東",
+     "en": "E",
+     "style": "pause_wind",
+     "rect": [
+      2,
+      3,
+      34,
+      34
+     ],
+     "erase": {
+      "clear": 161
+     }
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "東",
+     "en": "E",
+     "style": "pause_wind",
+     "rect": [
+      2,
+      43,
+      34,
+      34
+     ],
+     "erase": {
+      "clear": 160
+     }
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "南",
+     "en": "S",
+     "style": "pause_wind",
+     "rect": [
+      42,
+      3,
+      34,
+      34
+     ],
+     "erase": {
+      "clear": 161
+     }
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "南",
+     "en": "S",
+     "style": "pause_wind",
+     "rect": [
+      42,
+      43,
+      34,
+      34
+     ],
+     "erase": {
+      "clear": 160
+     }
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "西",
+     "en": "W",
+     "style": "pause_wind",
+     "rect": [
+      82,
+      3,
+      34,
+      34
+     ],
+     "erase": {
+      "clear": 161
+     }
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "西",
+     "en": "W",
+     "style": "pause_wind",
+     "rect": [
+      82,
+      43,
+      34,
+      34
+     ],
+     "erase": {
+      "clear": 160
+     }
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "北",
+     "en": "N",
+     "style": "pause_wind",
+     "rect": [
+      122,
+      3,
+      34,
+      34
+     ],
+     "erase": {
+      "clear": 161
+     }
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "北",
+     "en": "N",
+     "style": "pause_wind",
+     "rect": [
+      122,
+      43,
+      34,
+      34
+     ],
+     "erase": {
+      "clear": 160
+     }
+    }
+   ]
+  },
+  "majan/obj_strResult": {
+   "sprite": [
+    32,
+    32
+   ],
+   "comment": "Draw banner words, 32x32 pieces laid side by side (func_0207aae4). The sprite slots are re-split for English and asm/result_words.asm lists which pieces each word uses; keep the two in step. 'Four' is shared and right-aligned, the word after it left-aligned, so the pieces join with a normal space.",
+   "items": [
+    {
+     "sprites": [
+      0,
+      1
+     ],
+     "ja": "流局",
+     "en": "Draw",
+     "style": "result_word",
+     "rect": [
+      0,
+      0,
+      32,
+      32
+     ],
+     "erase": {
+      "clear": 0
+     }
+    },
+    {
+     "sprites": [
+      2,
+      3
+     ],
+     "ja": "四",
+     "en": "Four",
+     "style": "result_word",
+     "rect": [
+      0,
+      0,
+      32,
+      32
+     ],
+     "erase": {
+      "clear": 0
+     },
+     "align": "right",
+     "pad": 2
+    },
+    {
+     "sprites": [
+      4,
+      5
+     ],
+     "ja": "槓流れ",
+     "en": "Kans",
+     "style": "result_word",
+     "rect": [
+      0,
+      0,
+      32,
+      32
+     ],
+     "erase": {
+      "clear": 0
+     },
+     "align": "left",
+     "pad": 3
+    },
+    {
+     "sprites": [
+      6,
+      7
+     ],
+     "ja": "風連打",
+     "en": "Winds",
+     "style": "result_word",
+     "rect": [
+      0,
+      0,
+      32,
+      32
+     ],
+     "erase": {
+      "clear": 0
+     },
+     "align": "left",
+     "pad": 3
+    },
+    {
+     "sprites": [
+      8,
+      9
+     ],
+     "ja": "家リーチ流れ",
+     "en": "Riichi",
+     "style": "result_word",
+     "rect": [
+      0,
+      0,
+      32,
+      32
+     ],
+     "erase": {
+      "clear": 0
+     },
+     "align": "left",
+     "pad": 3
+    },
+    {
+     "sprites": [
+      10,
+      11,
+      12,
+      13,
+      14
+     ],
+     "ja": "九種九牌",
+     "en": "Nine Terminals",
+     "style": "result_word",
+     "rect": [
+      0,
+      0,
+      32,
+      32
+     ],
+     "erase": {
+      "clear": 0
+     }
+    },
+    {
+     "sprites": [
+      15,
+      16,
+      17
+     ],
+     "ja": "チョンボ",
+     "en": "Chombo",
+     "style": "result_word",
+     "rect": [
+      0,
+      0,
+      32,
+      32
+     ],
+     "erase": {
+      "clear": 0
+     }
+    },
+    {
+     "sprites": [
+      18,
+      19,
+      20,
+      21
+     ],
+     "ja": "三家和",
+     "en": "Triple Ron",
+     "style": "result_word",
+     "rect": [
+      0,
+      0,
+      32,
+      32
+     ],
+     "erase": {
+      "clear": 0
+     }
+    },
+    {
+     "sprites": [
+      22
+     ],
+     "ja": "和",
+     "rect": [
+      0,
+      0,
+      32,
+      32
+     ],
+     "erase": {
+      "clear": 0
+     }
+    }
+   ]
+  },
+  "arm9/menu_header_plates": {
+   "arm9": {
+    "addr": "020d56e4",
+    "size": 9984,
+    "palette": "020d4204",
+    "palette_size": 32
+   },
+   "layout": "bitmap",
+   "sprite": [
+    624,
+    32
+   ],
+   "bpp": 4,
+   "comment": "Top-screen header plates of the options / rule screens (func_0209dd34 blits 208x32 cell i from this 624-wide sheet): Option Settings, Rule Settings, Rule List. Same look as the Main Menu plate in TexMenu; text area between the red end dots is restored row by row from column 19 of each cell.",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "オプション設定",
+     "en": [
+      [
+       "Option",
+       "header_black"
+      ],
+      [
+       "Settings",
+       "header_red"
+      ]
+     ],
+     "segment_gap": 6,
+     "rect": [
+      20,
+      0,
+      168,
+      28
+     ],
+     "erase": {
+      "sample_x": 19
+     }
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "ルール設定",
+     "en": [
+      [
+       "Rule",
+       "header_black"
+      ],
+      [
+       "Settings",
+       "header_red"
+      ]
+     ],
+     "segment_gap": 6,
+     "rect": [
+      228,
+      0,
+      168,
+      28
+     ],
+     "erase": {
+      "sample_x": 227
+     }
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "ルール一覧",
+     "en": [
+      [
+       "Rule",
+       "header_black"
+      ],
+      [
+       "List",
+       "header_red"
+      ]
+     ],
+     "segment_gap": 6,
+     "rect": [
+      436,
+      0,
+      168,
+      28
+     ],
+     "erase": {
+      "sample_x": 435
+     }
+    }
+   ]
+  },
+  "arm9/header_results": {
+   "arm9": {
+    "addr": "020d7e64",
+    "size": 1920,
+    "palette": "020d7e44",
+    "palette_size": 32
+   },
+   "layout": "bitmap",
+   "sprite": [
+    80,
+    48
+   ],
+   "bpp": 4,
+   "comment": "Top-screen title headers blitted from ARM9 bitmaps through the descriptor table at 0x0210E030 ({sheet width, w, h, data, palette, src x, src y}). End-of-match results and score check, 80x24 each.",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "最終結果",
+     "en": "Results",
+     "style": "gold_header",
+     "rect": [
+      0,
+      0,
+      80,
+      24
+     ],
+     "erase": {
+      "clear": 0
+     },
+     "align": "left",
+     "pad": 1
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "得点確認",
+     "en": "Scores",
+     "style": "gold_header",
+     "rect": [
+      0,
+      24,
+      80,
+      24
+     ],
+     "erase": {
+      "clear": 0
+     },
+     "align": "left",
+     "pad": 1
+    }
+   ]
+  },
+  "arm9/header_wireless": {
+   "arm9": {
+    "addr": "020d85e4",
+    "size": 2208,
+    "palette": "020d7e24",
+    "palette_size": 32
+   },
+   "layout": "bitmap",
+   "sprite": [
+    184,
+    24
+   ],
+   "bpp": 4,
+   "comment": "Top-screen title headers blitted from ARM9 bitmaps through the descriptor table at 0x0210E030 ({sheet width, w, h, data, palette, src x, src y}). DS Wireless Play screens.",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "DSワイヤレスプレイ",
+     "en": "DS Wireless Play",
+     "style": "gold_header",
+     "rect": [
+      0,
+      0,
+      184,
+      24
+     ],
+     "erase": {
+      "clear": 0
+     },
+     "align": "left",
+     "pad": 1
+    }
+   ]
+  },
+  "arm9/header_download": {
+   "arm9": {
+    "addr": "020d8e84",
+    "size": 2208,
+    "palette": "020d7e04",
+    "palette_size": 32
+   },
+   "layout": "bitmap",
+   "sprite": [
+    184,
+    24
+   ],
+   "bpp": 4,
+   "comment": "Top-screen title headers blitted from ARM9 bitmaps through the descriptor table at 0x0210E030 ({sheet width, w, h, data, palette, src x, src y}). DS Download Play screens.",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "DSダウンロードプレイ",
+     "en": "DS Download Play",
+     "style": "gold_header",
+     "rect": [
+      0,
+      0,
+      184,
+      24
+     ],
+     "erase": {
+      "clear": 0
+     },
+     "align": "left",
+     "pad": 1
+    }
+   ]
+  },
+  "arm9/header_ranking_points": {
+   "arm9": {
+    "addr": "020d9724",
+    "size": 4256,
+    "palette": "020d7de4",
+    "palette_size": 32
+   },
+   "layout": "bitmap",
+   "sprite": [
+    152,
+    56
+   ],
+   "bpp": 4,
+   "comment": "Top-screen title headers blitted from ARM9 bitmaps through the descriptor table at 0x0210E030 ({sheet width, w, h, data, palette, src x, src y}). Ranking Mode points screen: title (152x24) and two small labels (80x12 at y 24, 60x12 at y 40).",
+   "items": [
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "ランキングポイント",
+     "en": "Ranking Points",
+     "style": "gold_header",
+     "rect": [
+      0,
+      0,
+      152,
+      24
+     ],
+     "erase": {
+      "clear": 0
+     },
+     "align": "left",
+     "pad": 1
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "現在のランキング",
+     "en": "Current Rank",
+     "style": "small_shadow",
+     "rect": [
+      0,
+      24,
+      80,
+      12
+     ],
+     "erase": {
+      "clear": 0
+     },
+     "align": "left",
+     "pad": 1
+    },
+    {
+     "sprites": [
+      0
+     ],
+     "ja": "ポイント増減",
+     "en": "Change",
+     "style": "small_shadow",
+     "rect": [
+      0,
+      40,
+      60,
+      12
+     ],
+     "erase": {
+      "clear": 0
+     },
+     "align": "left",
+     "pad": 1
+    }
+   ]
+  }
+ }
+}

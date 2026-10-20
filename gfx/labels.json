@@ -1,0 +1,2672 @@
+{
+ "comment": "Text inside texture atlases. labels: replace a whole region (re-placed in free atlas space, region table updated). patches: redraw in place; rect is cleared to `clear` (palette index or #rrggbb) or row-by-row from column `sample_x`. Colours are palette indices or #rrggbb (nearest palette entry). Fonts: small = 12 px VWF, display = outlined name-entry font, big = Scale2x VWF.",
+ "styles": {
+  "menu_button": {
+   "font": "display",
+   "outline": "#394263",
+   "bands": [
+    "#cecece",
+    "#cecece",
+    "#bdbdbd",
+    "#b5b5b5"
+   ]
+  },
+  "button_text": {
+   "font": "small",
+   "fill": "#ffffff",
+   "shadow": "#000000"
+  },
+  "header_black": {
+   "font": "big",
+   "fill": "#000000",
+   "outline": "#ffffff",
+   "shadow": "#b5b5b5"
+  },
+  "header_red": {
+   "font": "big",
+   "fill": "#ce2908",
+   "outline": "#ffffff",
+   "shadow": "#b5b5b5"
+  },
+  "cond": {
+   "font": "small",
+   "fill": "#def7f7",
+   "outline": "#3129bd"
+  },
+  "course_big": {
+   "font": "display",
+   "outline": "#310094",
+   "bands": [
+    "#f7f7f7",
+    "#ceb5e7",
+    "#a58cde",
+    "#946bd6"
+   ]
+  },
+  "course_small": {
+   "font": "small",
+   "fill": "#ffffff",
+   "outline": "#310094"
+  },
+  "opponents": {
+   "font": "display",
+   "outline": "#ce3100",
+   "bands": [
+    "#ffbd39",
+    "#ffad31",
+    "#ef7b18",
+    "#ef6308"
+   ]
+  },
+  "clear_cond": {
+   "font": "display",
+   "outline": "#003139",
+   "bands": [
+    "#deffe7",
+    "#b5ffc6",
+    "#39a5a5",
+    "#00849c"
+   ]
+  },
+  "congrats": {
+   "font": "big",
+   "fill": [
+    "#ffff6b",
+    "#ffde52",
+    "#ffc600"
+   ],
+   "outline": "#633900"
+  },
+  "support_note": {
+   "font": "small",
+   "fill": "#ff3163",
+   "outline": "#ffff9c"
+  },
+  "rank": {
+   "font": "small",
+   "fill": [
+    "#ffffff",
+    "#dedede",
+    "#b5b5b5"
+   ],
+   "outline": "#000000",
+   "trim_rows": true
+  },
+  "cs_free": {
+   "font": "display",
+   "outline": "#ffffff",
+   "bands": [
+    "#8c84ff",
+    "#4242ff",
+    "#1010ff",
+    "#0000ff"
+   ]
+  },
+  "cs_rank": {
+   "font": "display",
+   "outline": "#ffffff",
+   "bands": [
+    "#ff8484",
+    "#ff4242",
+    "#ff2121",
+    "#ff0000"
+   ]
+  },
+  "cs_header": {
+   "font": "display",
+   "outline": "#7b2100",
+   "bands": [
+    "#ffffe7",
+    "#ffff8c",
+    "#ffff39",
+    "#ffff00"
+   ]
+  },
+  "host_msg": {
+   "font": "small",
+   "fill": [
+    "#ffffde",
+    "#ffe79c",
+    "#ffce4a",
+    "#ff9c42"
+   ],
+   "outline": "#ff0000"
+  },
+  "tiny_white": {
+   "font": "tiny",
+   "fill": "#ffffff",
+   "shadow": "#000000"
+  },
+  "profile": {
+   "font": "small",
+   "fill": "#101010"
+  },
+  "stat_header": {
+   "font": "display",
+   "outline": "#7b2900",
+   "bands": [
+    "#ffffce",
+    "#ffff31",
+    "#ffd600",
+    "#f78c00"
+   ]
+  },
+  "white_label": {
+   "font": "small",
+   "fill": "#ffffff",
+   "outline": "#000000",
+   "trim_rows": true
+  },
+  "white_label_dark": {
+   "font": "small",
+   "fill": "#ffffff",
+   "outline": "#181818",
+   "trim_rows": true
+  },
+  "key_label": {
+   "font": "small",
+   "fill": [
+    "#ffffce",
+    "#ffff6b",
+    "#ffc600",
+    "#ff9c00"
+   ],
+   "outline": "#000000"
+  },
+  "tab_off": {
+   "font": "small",
+   "fill": "#bdbdbd",
+   "trim_rows": true
+  },
+  "tab_on": {
+   "font": "small",
+   "fill": "#ffde7b",
+   "trim_rows": true
+  },
+  "hint_white": {
+   "font": "small",
+   "fill": "#ffffff",
+   "outline": "#000000",
+   "trim_rows": true
+  },
+  "naki_gray": {
+   "font": "small",
+   "fill": [
+    "#ffffff",
+    "#cecece",
+    "#adadad"
+   ],
+   "outline": "#000000",
+   "trim_rows": true
+  },
+  "naki_orange": {
+   "font": "small",
+   "fill": [
+    "#ffef21",
+    "#ffce00",
+    "#ff9408"
+   ],
+   "outline": "#000000",
+   "trim_rows": true
+  },
+  "pause_off": {
+   "font": "small",
+   "fill": [
+    "#dedede",
+    "#bdbdbd",
+    "#adadad"
+   ],
+   "outline": "#313131"
+  },
+  "pause_on": {
+   "font": "small",
+   "fill": [
+    "#fff7b5",
+    "#efb542",
+    "#bd7b08"
+   ],
+   "outline": "#422100"
+  },
+  "fx_green": {
+   "font": "big",
+   "fill": [
+    "#deffbd",
+    "#84ff6b",
+    "#00ff00"
+   ],
+   "outline": "#004200"
+  },
+  "fx_orange": {
+   "font": "big",
+   "fill": [
+    "#ffff9c",
+    "#ffef00",
+    "#ffa500"
+   ],
+   "outline": "#de4200"
+  },
+  "fx_magenta": {
+   "font": "big",
+   "fill": [
+    "#ffffff",
+    "#ffceff",
+    "#ff63ef"
+   ],
+   "outline": "#840073"
+  },
+  "fx_magenta_disp": {
+   "font": "display",
+   "outline": "#840073",
+   "bands": [
+    "#ffffff",
+    "#ffceff",
+    "#ff9cff",
+    "#ff63ef"
+   ]
+  },
+  "fx_blue": {
+   "font": "big",
+   "fill": [
+    "#ceffff",
+    "#7bf7ff",
+    "#5aefff"
+   ],
+   "outline": "#000894",
+   "bold": false
+  },
+  "common_btn": {
+   "font": "small",
+   "fill": "#ffffff",
+   "shadow": "#000000"
+  },
+  "msg_off": {
+   "font": "small",
+   "fill": "#adadad",
+   "shadow": "#181818"
+  },
+  "msg_on": {
+   "font": "small",
+   "fill": "#ffffff",
+   "shadow": "#181818"
+  },
+  "wind_letter": {
+   "font": "small",
+   "fill": "#ffffff",
+   "trim_rows": true
+  },
+  "icon_tiny": {
+   "font": "tiny",
+   "fill": "#ffffff",
+   "shadow": "#000000"
+  },
+  "panel_text": {
+   "font": "small",
+   "fill": "#ffffff",
+   "shadow": "#000000"
+  },
+  "agari_gold": {
+   "font": "big",
+   "fill": [
+    "#ffffef",
+    "#ffef73",
+    "#ffde29",
+    "#ffc608",
+    "#efad08"
+   ],
+   "outline": "#000000",
+   "outline_width": 2,
+   "trim_rows": true
+  },
+  "agari_silver": {
+   "font": "big",
+   "fill": [
+    "#ffffff",
+    "#efefef",
+    "#cecece",
+    "#a5a5a5"
+   ],
+   "outline": "#000000",
+   "outline_width": 2,
+   "trim_rows": true
+  },
+  "agari_bronze": {
+   "font": "big",
+   "fill": [
+    "#ffefd6",
+    "#e7c694",
+    "#cea56b",
+    "#a57b42"
+   ],
+   "outline": "#000000",
+   "outline_width": 2,
+   "trim_rows": true
+  },
+  "round_glyph": {
+   "font": "small",
+   "fill": 10,
+   "shadow": 13,
+   "trim_rows": true
+  },
+  "dict_title": {
+   "font": "big",
+   "fill": 178,
+   "outline": 1,
+   "outline2": 191
+  },
+  "dict_header": {
+   "font": "display",
+   "outline": 1,
+   "bands": [
+    191,
+    191,
+    191,
+    191
+   ]
+  },
+  "dict_menu_off": {
+   "font": "display",
+   "outline": "#313131",
+   "bands": [
+    "#ffffff",
+    "#dedede",
+    "#bdbdbd",
+    "#adadad"
+   ]
+  },
+  "dict_menu_on": {
+   "font": "display",
+   "outline": "#422100",
+   "bands": [
+    "#fff7b5",
+    "#fff7b5",
+    "#efb542",
+    "#bd7b08"
+   ]
+  },
+  "dict_yellow": {
+   "font": "small",
+   "fill": 175,
+   "outline": 64,
+   "trim_rows": true
+  },
+  "dict_white": {
+   "font": "small",
+   "fill": 207,
+   "outline": 64,
+   "trim_rows": true
+  },
+  "dict_tiny_yellow": {
+   "font": "tiny",
+   "fill": 175,
+   "shadow": 64
+  },
+  "dict_tab_on": {
+   "font": "small",
+   "fill": 178,
+   "outline": 111,
+   "trim_rows": true
+  },
+  "dict_tab_off": {
+   "font": "small",
+   "fill": 169,
+   "outline": 112,
+   "trim_rows": true
+  },
+  "guide_title": {
+   "font": "big",
+   "fill": [
+    "#ffffde",
+    "#ffff10",
+    "#f7c608",
+    "#efa500",
+    "#ef8c00"
+   ],
+   "outline": "#7b2900",
+   "outline_width": 2,
+   "shadow": "#421000",
+   "trim_rows": true
+  },
+  "open_mario": {
+   "font": "big",
+   "fill": [
+    "#ef736b",
+    "#e74a4a",
+    "#d61010"
+   ],
+   "outline": "#ffffff",
+   "outline_width": 2,
+   "trim_rows": true
+  },
+  "open_peach": {
+   "font": "big",
+   "fill": [
+    "#f76384",
+    "#de3973",
+    "#c6105a"
+   ],
+   "outline": "#ffffff",
+   "outline_width": 2,
+   "trim_rows": true
+  },
+  "open_yoshi": {
+   "font": "big",
+   "fill": [
+    "#39ad31",
+    "#219c31",
+    "#087b31"
+   ],
+   "outline": "#ffffff",
+   "outline_width": 2,
+   "trim_rows": true
+  },
+  "open_luigi": {
+   "font": "big",
+   "fill": [
+    "#84a518",
+    "#4a9418",
+    "#187b08"
+   ],
+   "outline": "#ffffff",
+   "outline_width": 2,
+   "trim_rows": true
+  },
+  "open_toad": {
+   "font": "big",
+   "fill": [
+    "#e78c29",
+    "#de7329",
+    "#de5229"
+   ],
+   "outline": "#ffffff",
+   "outline_width": 2,
+   "trim_rows": true
+  },
+  "open_dk": {
+   "font": "big",
+   "fill": [
+    "#945218",
+    "#733908",
+    "#522900"
+   ],
+   "outline": "#ffffff",
+   "outline_width": 2,
+   "trim_rows": true
+  },
+  "open_shadow": {
+   "font": "big",
+   "fill": "#000000",
+   "outline": "#000000",
+   "outline_width": 4,
+   "trim_rows": true
+  },
+  "pause_mode": {
+   "font": "small_bold",
+   "fill": [
+    15,
+    15,
+    3,
+    2
+   ],
+   "outline": 13,
+   "outline2": [
+    8,
+    11
+   ],
+   "trim_rows": true
+  },
+  "pause_wind": {
+   "font": "huge",
+   "fill": 144,
+   "trim_rows": true
+  },
+  "result_word": {
+   "font": "big",
+   "fill": [
+    15,
+    14,
+    13,
+    11,
+    9,
+    8,
+    10,
+    12
+   ],
+   "outline": 1,
+   "outline_width": 2,
+   "trim_rows": true
+  },
+  "chal_total": {
+   "font": "small",
+   "fill": [
+    200,
+    196,
+    192,
+    188,
+    160
+   ],
+   "trim_rows": true
+  },
+  "gold_header": {
+   "font": "display",
+   "outline": "#7b2900",
+   "bands": [
+    "#ffffe7",
+    "#ffff10",
+    "#efbd10",
+    "#e78c00"
+   ]
+  },
+  "small_shadow": {
+   "font": "small",
+   "fill": "#ffffff",
+   "shadow": "#000000",
+   "trim_rows": true
+  }
+ },
+ "textures": {
+  "MainMenu/TexMenu": {
+   "labels": [
+    {
+     "region": 4,
+     "ja": "一人用対局",
+     "en": "Single Player",
+     "style": "menu_button"
+    },
+    {
+     "region": 5,
+     "ja": "麻雀入門",
+     "en": "Mahjong Basics",
+     "style": "menu_button"
+    },
+    {
+     "region": 6,
+     "ja": "通信対局",
+     "en": "Wireless Play",
+     "style": "menu_button"
+    },
+    {
+     "region": 7,
+     "ja": "ステータス",
+     "en": "Stats",
+     "style": "menu_button"
+    },
+    {
+     "region": 8,
+     "ja": "オプション",
+     "en": "Options",
+     "style": "menu_button"
+    },
+    {
+     "region": 9,
+     "ja": "麻雀辞典",
+     "en": "Dictionary",
+     "style": "menu_button"
+    },
+    {
+     "region": 10,
+     "ja": "フリー対局",
+     "en": "Free Play",
+     "style": "menu_button"
+    },
+    {
+     "region": 11,
+     "ja": "ランキング対局",
+     "en": "Ranking Mode",
+     "style": "menu_button"
+    },
+    {
+     "region": 12,
+     "ja": "チャレンジ対局",
+     "en": "Challenge Mode",
+     "style": "menu_button"
+    },
+    {
+     "region": 13,
+     "ja": "DSワイヤレスプレイ",
+     "en": "DS Wireless Play",
+     "style": "menu_button"
+    },
+    {
+     "region": 14,
+     "ja": "DSダウンロードプレイ",
+     "en": "DS Download Play",
+     "style": "menu_button"
+    },
+    {
+     "region": 15,
+     "ja": "対局開始",
+     "en": "Start Game",
+     "style": "menu_button"
+    },
+    {
+     "region": 16,
+     "ja": "ルール確認",
+     "en": "Check Rules",
+     "style": "menu_button"
+    }
+   ],
+   "patches": [
+    {
+     "ja": "もどる",
+     "en": "Back",
+     "style": "button_text",
+     "rect": [
+      164,
+      2,
+      43,
+      16
+     ],
+     "sample_x": 207
+    },
+    {
+     "ja": "次へ",
+     "en": "Next",
+     "style": "button_text",
+     "rect": [
+      164,
+      22,
+      43,
+      16
+     ],
+     "sample_x": 207
+    },
+    {
+     "ja": "メインメニュー",
+     "en": [
+      [
+       "Main",
+       "header_black"
+      ],
+      [
+       "Menu",
+       "header_red"
+      ]
+     ],
+     "segment_gap": 6,
+     "rect": [
+      24,
+      227,
+      164,
+      28
+     ],
+     "sample_x": 22
+    }
+   ]
+  },
+  "Challenge/TexChallenge": {
+   "labels": [
+    {
+     "region": 1,
+     "ja": "初級",
+     "en": "Beginner",
+     "style": "course_big",
+     "align": "none",
+     "keep_height": false
+    },
+    {
+     "region": 2,
+     "ja": "中級",
+     "en": "Intermediate",
+     "style": "course_big",
+     "align": "none",
+     "keep_height": false
+    },
+    {
+     "region": 3,
+     "ja": "上級",
+     "en": "Advanced",
+     "style": "course_big",
+     "align": "none",
+     "keep_height": false
+    },
+    {
+     "region": 4,
+     "ja": "名人",
+     "en": "Master",
+     "style": "course_big",
+     "align": "none",
+     "keep_height": false
+    },
+    {
+     "region": 5,
+     "ja": "コース",
+     "en": "Course",
+     "style": "course_big",
+     "keep_height": false,
+     "align": "none"
+    },
+    {
+     "region": 36,
+     "ja": "初級",
+     "en": "Beginner",
+     "style": "course_small",
+     "align": "none",
+     "width": 68,
+     "width_align": "right",
+     "keep_height": false
+    },
+    {
+     "region": 37,
+     "ja": "中級",
+     "en": "Intermediate",
+     "style": "course_small",
+     "align": "none",
+     "width": 68,
+     "width_align": "right",
+     "keep_height": false
+    },
+    {
+     "region": 38,
+     "ja": "上級",
+     "en": "Advanced",
+     "style": "course_small",
+     "align": "none",
+     "width": 68,
+     "width_align": "right",
+     "keep_height": false
+    },
+    {
+     "region": 39,
+     "ja": "名人",
+     "en": "Master",
+     "style": "course_small",
+     "align": "none",
+     "width": 68,
+     "width_align": "right",
+     "keep_height": false
+    },
+    {
+     "region": 40,
+     "ja": "コース",
+     "en": "Course",
+     "style": "course_small",
+     "align": "none",
+     "keep_height": false
+    },
+    {
+     "region": 33,
+     "ja": "対局メンバー",
+     "en": "Opponents",
+     "style": "opponents",
+     "align": "center"
+    },
+    {
+     "region": 34,
+     "ja": "クリア条件",
+     "en": "Goal",
+     "style": "clear_cond",
+     "align": "none"
+    },
+    {
+     "region": 35,
+     "ja": "おめでとう！",
+     "en": "Congratulations!",
+     "style": "congrats",
+     "align": "center"
+    },
+    {
+     "region": 20,
+     "ja": "このステージはサポ",
+     "en": "You can use",
+     "style": "support_note",
+     "align": "none"
+    },
+    {
+     "region": 21,
+     "ja": "ートが使えます",
+     "en": "Support here.",
+     "style": "support_note",
+     "align": "none"
+    }
+   ],
+   "patches": [
+    {
+     "ja": "もどる",
+     "en": "Back",
+     "style": "button_text",
+     "rect": [
+      20,
+      187,
+      43,
+      16
+     ],
+     "sample_x": 63
+    },
+    {
+     "ja": "チャレンジ対局",
+     "en": [
+      [
+       "Challenge",
+       "header_black"
+      ],
+      [
+       "Mode",
+       "header_red"
+      ]
+     ],
+     "segment_gap": 6,
+     "rects": [
+      [
+       25,
+       227,
+       147,
+       28
+      ],
+      [
+       135,
+       197,
+       18,
+       28
+      ]
+     ],
+     "sample_x": [
+      23,
+      154
+     ]
+    }
+   ]
+  },
+  "Challenge/TexChallenge2": {
+   "labels": [
+    {
+     "region": 21,
+     "ja": "対局開始",
+     "en": "Start Game",
+     "style": "menu_button"
+    },
+    {
+     "region": 22,
+     "ja": "ルール確認",
+     "en": "Check Rules",
+     "style": "menu_button"
+    }
+   ],
+   "patches": [
+    {
+     "ja": "次へ",
+     "en": "Next",
+     "style": "button_text",
+     "rect": [
+      164,
+      67,
+      43,
+      16
+     ],
+     "sample_x": 207
+    }
+   ]
+  },
+  "Challenge/TexChallengeText2": {
+   "labels": [
+    {
+     "region": 0,
+     "ja": "半荘",
+     "en": "hanchan,",
+     "style": "cond",
+     "align": "left"
+    },
+    {
+     "region": 1,
+     "ja": "回戦で、",
+     "en": "In",
+     "style": "cond",
+     "align": "left"
+    },
+    {
+     "region": 2,
+     "ja": "以上",
+     "en": "or more",
+     "style": "cond",
+     "align": "left"
+    },
+    {
+     "region": 3,
+     "ja": "最下位にならない",
+     "en": "don't finish last",
+     "style": "cond",
+     "align": "left"
+    },
+    {
+     "region": 4,
+     "ja": "トップをとる",
+     "en": "take 1st",
+     "style": "cond",
+     "align": "left"
+    },
+    {
+     "region": 5,
+     "ja": "東風戦",
+     "en": "East Game,",
+     "style": "cond",
+     "align": "left"
+    },
+    {
+     "region": 6,
+     "ja": "先生のサポートなしで",
+     "en": "without Lakitu's help,",
+     "style": "cond",
+     "align": "left"
+    },
+    {
+     "region": 7,
+     "ja": "クリボーに勝つ",
+     "en": "beat Goomba",
+     "style": "cond",
+     "align": "left"
+    },
+    {
+     "region": 8,
+     "ja": "回戦、",
+     "en": "In",
+     "style": "cond",
+     "align": "left"
+    },
+    {
+     "region": 9,
+     "ja": "ヘイホーと組み、",
+     "en": "team up with Shy Guy;",
+     "style": "cond",
+     "align": "left"
+    },
+    {
+     "region": 10,
+     "ja": "秒で、",
+     "en": "-second limit,",
+     "style": "cond",
+     "align": "left"
+    },
+    {
+     "region": 11,
+     "ja": "どちらかが",
+     "en": "either of you must",
+     "style": "cond",
+     "align": "left"
+    },
+    {
+     "region": 12,
+     "ja": "回連続で",
+     "en": "times in a row",
+     "style": "cond",
+     "align": "left"
+    }
+   ]
+  },
+  "Challenge/TexChallengeText3": {
+   "labels": [
+    {
+     "region": 0,
+     "ja": "理牌なし、",
+     "en": "no tile sorting,",
+     "style": "cond",
+     "align": "left"
+    },
+    {
+     "region": 1,
+     "ja": "2位以上",
+     "en": "finish 2nd or higher",
+     "style": "cond",
+     "align": "left"
+    },
+    {
+     "region": 2,
+     "ja": "制限時間",
+     "en": "with a",
+     "style": "cond",
+     "align": "left"
+    },
+    {
+     "region": 3,
+     "ja": "リーチしてアガる",
+     "en": "win with riichi",
+     "style": "cond",
+     "align": "left"
+    },
+    {
+     "region": 4,
+     "ja": "3位、4位にならない",
+     "en": "finish 3rd or 4th",
+     "style": "cond",
+     "align": "left"
+    },
+    {
+     "region": 5,
+     "ja": "一度も振り込みしない",
+     "en": "never deal in",
+     "style": "cond",
+     "align": "left"
+    },
+    {
+     "region": 6,
+     "ja": "割れ目、ドボンありで、",
+     "en": "with Wareme and Bust on,",
+     "style": "cond",
+     "align": "left"
+    },
+    {
+     "region": 7,
+     "ja": "ボスパックンをドボンさせる",
+     "en": "bust Petey Piranha",
+     "style": "cond",
+     "align": "left"
+    },
+    {
+     "region": 8,
+     "ja": "クッパJr.に勝つ",
+     "en": "beat Bowser Jr.",
+     "style": "cond",
+     "align": "left"
+    },
+    {
+     "region": 9,
+     "ja": "全員の手牌オープンで、",
+     "en": "with all hands open,",
+     "style": "cond",
+     "align": "left"
+    },
+    {
+     "region": 10,
+     "ja": "クッパに勝ち続ける",
+     "en": "keep beating Bowser",
+     "style": "cond",
+     "align": "left"
+    },
+    {
+     "region": 11,
+     "ja": "回戦の合",
+     "en": "Over",
+     "style": "cond",
+     "align": "left"
+    },
+    {
+     "region": 12,
+     "ja": "計で、",
+     "en": "overall",
+     "style": "cond",
+     "align": "left"
+    },
+    {
+     "region": 13,
+     "ja": "一度も",
+     "en": "never",
+     "style": "cond",
+     "align": "left"
+    },
+    {
+     "region": 14,
+     "ja": "+",
+     "en": "score +",
+     "style": "cond",
+     "align": "left"
+    },
+    {
+     "region": 15,
+     "ja": "０",
+     "en": "0",
+     "style": "cond",
+     "align": "left",
+     "width": 8
+    },
+    {
+     "region": 16,
+     "ja": "１",
+     "en": "1",
+     "style": "cond",
+     "align": "left",
+     "width": 8
+    },
+    {
+     "region": 17,
+     "ja": "２",
+     "en": "2",
+     "style": "cond",
+     "align": "left",
+     "width": 8
+    },
+    {
+     "region": 18,
+     "ja": "３",
+     "en": "3",
+     "style": "cond",
+     "align": "left",
+     "width": 8
+    },
+    {
+     "region": 19,
+     "ja": "４",
+     "en": "4",
+     "style": "cond",
+     "align": "left",
+     "width": 8
+    },
+    {
+     "region": 20,
+     "ja": "５",
+     "en": "5",
+     "style": "cond",
+     "align": "left",
+     "width": 8
+    },
+    {
+     "region": 21,
+     "ja": "６",
+     "en": "6",
+     "style": "cond",
+     "align": "left",
+     "width": 8
+    },
+    {
+     "region": 22,
+     "ja": "７",
+     "en": "7",
+     "style": "cond",
+     "align": "left",
+     "width": 8
+    },
+    {
+     "region": 23,
+     "ja": "８",
+     "en": "8",
+     "style": "cond",
+     "align": "left",
+     "width": 8
+    },
+    {
+     "region": 24,
+     "ja": "９",
+     "en": "9",
+     "style": "cond",
+     "align": "left",
+     "width": 8
+    },
+    {
+     "region": 25,
+     "ja": "少し難しかったかな？",
+     "en": "Was that a bit tough?",
+     "style": "cond",
+     "align": "left"
+    },
+    {
+     "region": 26,
+     "ja": "クリアめざして",
+     "en": "Keep aiming to clear it",
+     "style": "cond",
+     "align": "left"
+    },
+    {
+     "region": 27,
+     "ja": "再チャレンジ！",
+     "en": "and try again!",
+     "style": "cond",
+     "align": "left"
+    }
+   ]
+  },
+  "CharSel/TexCharSel": {
+   "labels": [
+    {
+     "region": 3,
+     "ja": "1位",
+     "en": "1st",
+     "style": "rank",
+     "align": "none"
+    },
+    {
+     "region": 4,
+     "ja": "2位",
+     "en": "2nd",
+     "style": "rank",
+     "align": "none"
+    },
+    {
+     "region": 5,
+     "ja": "3位",
+     "en": "3rd",
+     "style": "rank",
+     "align": "none"
+    },
+    {
+     "region": 6,
+     "ja": "4位",
+     "en": "4th",
+     "style": "rank",
+     "align": "none"
+    },
+    {
+     "region": 7,
+     "ja": "5位",
+     "en": "5th",
+     "style": "rank",
+     "align": "none"
+    },
+    {
+     "region": 8,
+     "ja": "6位",
+     "en": "6th",
+     "style": "rank",
+     "align": "none"
+    },
+    {
+     "region": 9,
+     "ja": "7位",
+     "en": "7th",
+     "style": "rank",
+     "align": "none"
+    },
+    {
+     "region": 10,
+     "ja": "8位",
+     "en": "8th",
+     "style": "rank",
+     "align": "none"
+    },
+    {
+     "region": 11,
+     "ja": "9位",
+     "en": "9th",
+     "style": "rank",
+     "align": "none"
+    },
+    {
+     "region": 12,
+     "ja": "10位",
+     "en": "10th",
+     "style": "rank",
+     "align": "none"
+    },
+    {
+     "region": 13,
+     "ja": "11位",
+     "en": "11th",
+     "style": "rank",
+     "align": "none"
+    },
+    {
+     "region": 14,
+     "ja": "12位",
+     "en": "12th",
+     "style": "rank",
+     "align": "none"
+    },
+    {
+     "region": 15,
+     "ja": "13位",
+     "en": "13th",
+     "style": "rank",
+     "align": "none"
+    },
+    {
+     "region": 16,
+     "ja": "14位",
+     "en": "14th",
+     "style": "rank",
+     "align": "none"
+    },
+    {
+     "region": 17,
+     "ja": "15位",
+     "en": "15th",
+     "style": "rank",
+     "align": "none"
+    },
+    {
+     "region": 18,
+     "ja": "16位",
+     "en": "16th",
+     "style": "rank",
+     "align": "none"
+    },
+    {
+     "region": 19,
+     "ja": "17位",
+     "en": "17th",
+     "style": "rank",
+     "align": "none"
+    },
+    {
+     "region": 20,
+     "ja": "18位",
+     "en": "18th",
+     "style": "rank",
+     "align": "none"
+    },
+    {
+     "region": 21,
+     "ja": "19位",
+     "en": "19th",
+     "style": "rank",
+     "align": "none"
+    },
+    {
+     "region": 22,
+     "ja": "20位",
+     "en": "20th",
+     "style": "rank",
+     "align": "none"
+    },
+    {
+     "region": 44,
+     "ja": "フリー対局",
+     "en": "Free Play",
+     "style": "cs_free"
+    },
+    {
+     "region": 45,
+     "ja": "ランキング対局",
+     "en": "Ranking Mode",
+     "style": "cs_rank"
+    },
+    {
+     "region": 2,
+     "ja": "対局キャラセレクト",
+     "en": "Character Select",
+     "style": "cs_header"
+    },
+    {
+     "region": 47,
+     "ja": "対局開始",
+     "en": "Start Game",
+     "style": "menu_button"
+    },
+    {
+     "region": 48,
+     "ja": "ルール確認",
+     "en": "Check Rules",
+     "style": "menu_button"
+    },
+    {
+     "region": 63,
+     "ja": "親機が設定しています",
+     "en": "Host is setting up...",
+     "style": "host_msg"
+    }
+   ],
+   "patches": [
+    {
+     "ja": "もどる",
+     "en": "Back",
+     "style": "button_text",
+     "rect": [
+      68,
+      103,
+      43,
+      16
+     ],
+     "sample_x": 111
+    },
+    {
+     "ja": "ランク",
+     "en": "RANK",
+     "style": "tiny_white",
+     "rect": [
+      145,
+      104,
+      22,
+      7
+     ],
+     "sample_x": 143
+    }
+   ]
+  },
+  "CharSel/TexCharSelText": {
+   "comment": "Character profiles: each block keeps its region; blocks 18-21, 22-23, 24-25 and 26-27 continue one another in that order.",
+   "patches": [
+    {
+     "ja": "まだ麻雀をよく分かっていませんが、一生懸命アガリを目指します。",
+     "lines": [
+      "Still learning the",
+      "game, but tries",
+      "hard to win",
+      "every hand."
+     ],
+     "style": "profile",
+     "line_height": 16,
+     "rect": [
+      0,
+      0,
+      108,
+      64
+     ],
+     "clear": 0,
+     "max_width": 104,
+     "at": [
+      3,
+      2
+     ]
+    },
+    {
+     "ja": "鳴ける牌があればどんなものでも食いつきます。アガリはそのあと。",
+     "lines": [
+      "Pounces on any tile",
+      "that can be called.",
+      "Worries about",
+      "winning later."
+     ],
+     "style": "profile",
+     "line_height": 16,
+     "rect": [
+      0,
+      64,
+      108,
+      64
+     ],
+     "clear": 0,
+     "max_width": 104,
+     "at": [
+      3,
+      66
+     ]
+    },
+    {
+     "ja": "テンパイをするとすぐさまリーチ。裏ドラに期待を懸けます。",
+     "lines": [
+      "Calls riichi as soon",
+      "as in tenpai, and",
+      "hopes for ura dora",
+      "to boost the hand."
+     ],
+     "style": "profile",
+     "line_height": 16,
+     "rect": [
+      0,
+      128,
+      108,
+      64
+     ],
+     "clear": 0,
+     "max_width": 104,
+     "at": [
+      3,
+      130
+     ]
+    },
+    {
+     "ja": "持ち前のスピードを麻雀でも発揮します。安くてもお構いなし。",
+     "lines": [
+      "Brings that famous",
+      "speed to the table.",
+      "Doesn't mind if the",
+      "hand is cheap."
+     ],
+     "style": "profile",
+     "line_height": 16,
+     "rect": [
+      0,
+      192,
+      108,
+      64
+     ],
+     "clear": 0,
+     "max_width": 104,
+     "at": [
+      3,
+      194
+     ]
+    },
+    {
+     "ja": "自分のペースに持ち込んでの、するどいリーチが得意です。",
+     "lines": [
+      "Takes control of",
+      "the game's pace,",
+      "then strikes with",
+      "a sharp riichi."
+     ],
+     "style": "profile",
+     "line_height": 16,
+     "rect": [
+      108,
+      176,
+      107,
+      64
+     ],
+     "clear": 0,
+     "max_width": 103,
+     "at": [
+      111,
+      178
+     ]
+    },
+    {
+     "ja": "攻めるときは攻める。守るときは守る。堅実なプレイをします。",
+     "lines": [
+      "A steady player:",
+      "attacks when it's",
+      "time to attack, and",
+      "defends otherwise."
+     ],
+     "style": "profile",
+     "line_height": 16,
+     "rect": [
+      108,
+      0,
+      107,
+      64
+     ],
+     "clear": 0,
+     "max_width": 103,
+     "at": [
+      111,
+      2
+     ]
+    },
+    {
+     "ja": "チートイツからいろいろな形に展開させます。",
+     "lines": [
+      "Starts from Seven",
+      "Pairs and branches",
+      "into other hands."
+     ],
+     "style": "profile",
+     "line_height": 16,
+     "rect": [
+      108,
+      64,
+      107,
+      48
+     ],
+     "clear": 0,
+     "max_width": 103,
+     "at": [
+      111,
+      66
+     ]
+    },
+    {
+     "ja": "(blank)",
+     "lines": [
+      ""
+     ],
+     "style": "profile",
+     "line_height": 16,
+     "rect": [
+      108,
+      112,
+      54,
+      16
+     ],
+     "clear": 0,
+     "max_width": 50
+    },
+    {
+     "ja": "まわりの状況を考えて、攻めの形を自在に変化させま",
+     "lines": [
+      "Reads the table and",
+      "freely reshapes the",
+      "hand to attack."
+     ],
+     "style": "profile",
+     "line_height": 16,
+     "rect": [
+      108,
+      128,
+      107,
+      48
+     ],
+     "clear": 0,
+     "max_width": 103,
+     "at": [
+      111,
+      130
+     ]
+    },
+    {
+     "ja": "す。",
+     "lines": [
+      ""
+     ],
+     "style": "profile",
+     "line_height": 16,
+     "rect": [
+      163,
+      111,
+      53,
+      16
+     ],
+     "clear": 0,
+     "max_width": 49
+    },
+    {
+     "ja": "とにかく振り込まない堅実な打ち方。めったにリーチもかけません。",
+     "lines": [
+      "Plays it safe and",
+      "almost never deals",
+      "in. Rarely even",
+      "calls riichi."
+     ],
+     "style": "profile",
+     "line_height": 16,
+     "rect": [
+      215,
+      0,
+      107,
+      64
+     ],
+     "clear": 0,
+     "max_width": 103,
+     "at": [
+      218,
+      2
+     ]
+    },
+    {
+     "ja": "力強いプレイで、破壊力バツグンの手役を狙います。",
+     "lines": [
+      "Plays with power,",
+      "going after hands",
+      "that hit hard."
+     ],
+     "style": "profile",
+     "line_height": 16,
+     "rect": [
+      215,
+      64,
+      107,
+      48
+     ],
+     "clear": 0,
+     "max_width": 103,
+     "at": [
+      218,
+      66
+     ]
+    },
+    {
+     "ja": "かわいい見かけとは裏腹に、素早い手作りで場を圧倒します。",
+     "lines": [
+      "Looks cute, but",
+      "builds hands fast",
+      "enough to take over",
+      "the whole table."
+     ],
+     "style": "profile",
+     "line_height": 16,
+     "rect": [
+      215,
+      112,
+      107,
+      64
+     ],
+     "clear": 0,
+     "max_width": 103,
+     "at": [
+      218,
+      114
+     ]
+    },
+    {
+     "ja": "つねにアガリを狙いますが、守りも得意な万能スタイル。",
+     "lines": [
+      "Always goes for the",
+      "win, yet defends",
+      "well too. A true",
+      "all-rounder."
+     ],
+     "style": "profile",
+     "line_height": 16,
+     "rect": [
+      215,
+      176,
+      107,
+      64
+     ],
+     "clear": 0,
+     "max_width": 103,
+     "at": [
+      218,
+      178
+     ]
+    },
+    {
+     "ja": "豪快な打ち方から繰り出される手牌もまた迫力満点。",
+     "lines": [
+      "A bold, flashy style",
+      "that produces hands",
+      "just as bold."
+     ],
+     "style": "profile",
+     "line_height": 16,
+     "rect": [
+      322,
+      0,
+      107,
+      48
+     ],
+     "clear": 0,
+     "max_width": 103,
+     "at": [
+      325,
+      2
+     ]
+    },
+    {
+     "ja": "きっちり場の状況を見てアガリにつなげる技術はバツグン。",
+     "lines": [
+      "Carefully reads",
+      "the table and is",
+      "superb at turning",
+      "it into a win."
+     ],
+     "style": "profile",
+     "line_height": 16,
+     "rect": [
+      322,
+      48,
+      107,
+      64
+     ],
+     "clear": 0,
+     "max_width": 103,
+     "at": [
+      325,
+      50
+     ]
+    },
+    {
+     "ja": "ソツのない麻雀をしますが、ときおり見せる一撃は強力。",
+     "lines": [
+      "Plays a tidy game",
+      "without mistakes,",
+      "but now and then",
+      "lands a big hit."
+     ],
+     "style": "profile",
+     "line_height": 16,
+     "rect": [
+      322,
+      128,
+      107,
+      64
+     ],
+     "clear": 0,
+     "max_width": 103,
+     "at": [
+      325,
+      130
+     ]
+    },
+    {
+     "ja": "豪快な性格で、パワフルな一色系を目指します。",
+     "lines": [
+      "Big and bold.",
+      "Goes for",
+      "powerful flush",
+      "hands."
+     ],
+     "style": "profile",
+     "line_height": 16,
+     "rect": [
+      429,
+      0,
+      83,
+      64
+     ],
+     "clear": 0,
+     "max_width": 79,
+     "at": [
+      432,
+      2
+     ]
+    },
+    {
+     "ja": "意地悪な捨て牌や",
+     "lines": [
+      "A contrarian who"
+     ],
+     "style": "profile",
+     "line_height": 16,
+     "rect": [
+      322,
+      192,
+      107,
+      16
+     ],
+     "clear": 0,
+     "max_width": 103,
+     "at": [
+      325,
+      194
+     ]
+    },
+    {
+     "ja": "待ち牌で",
+     "lines": [
+      "confuses rivals"
+     ],
+     "style": "profile",
+     "line_height": 16,
+     "rect": [
+      429,
+      192,
+      83,
+      16
+     ],
+     "clear": 0,
+     "max_width": 79,
+     "at": [
+      432,
+      194
+     ]
+    },
+    {
+     "ja": "相手を惑わせる",
+     "lines": [
+      "with sneaky discards"
+     ],
+     "style": "profile",
+     "line_height": 16,
+     "rect": [
+      322,
+      208,
+      107,
+      16
+     ],
+     "clear": 0,
+     "max_width": 103,
+     "at": [
+      325,
+      210
+     ]
+    },
+    {
+     "ja": "ひねくれ者。",
+     "lines": [
+      "and waits."
+     ],
+     "style": "profile",
+     "line_height": 16,
+     "rect": [
+      429,
+      208,
+      83,
+      16
+     ],
+     "clear": 0,
+     "max_width": 79,
+     "at": [
+      432,
+      210
+     ]
+    },
+    {
+     "ja": "得意のリーチからのツモは驚異的。",
+     "lines": [
+      "Riichi, then tsumo:",
+      "deadly every time."
+     ],
+     "style": "profile",
+     "line_height": 16,
+     "rect": [
+      322,
+      224,
+      107,
+      32
+     ],
+     "clear": 0,
+     "max_width": 103,
+     "at": [
+      325,
+      226
+     ]
+    },
+    {
+     "ja": "運を味方にプレイします。",
+     "lines": [
+      "Plays with luck",
+      "on their side."
+     ],
+     "style": "profile",
+     "line_height": 16,
+     "rect": [
+      429,
+      224,
+      83,
+      32
+     ],
+     "clear": 0,
+     "max_width": 79,
+     "at": [
+      432,
+      226
+     ]
+    },
+    {
+     "ja": "同じ絵柄を集める",
+     "lines": [
+      "Loves collecting"
+     ],
+     "style": "profile",
+     "line_height": 16,
+     "rect": [
+      215,
+      240,
+      107,
+      16
+     ],
+     "clear": 0,
+     "max_width": 103,
+     "at": [
+      218,
+      242
+     ]
+    },
+    {
+     "ja": "のが得意で、チーよりもポンが好き。",
+     "lines": [
+      "matching tiles,",
+      "and likes Pon",
+      "more than Chii."
+     ],
+     "style": "profile",
+     "line_height": 16,
+     "rect": [
+      429,
+      64,
+      83,
+      48
+     ],
+     "clear": 0,
+     "max_width": 79,
+     "at": [
+      432,
+      66
+     ]
+    },
+    {
+     "ja": "目に見えるもの",
+     "lines": [
+      "Believes only in what"
+     ],
+     "style": "profile",
+     "line_height": 16,
+     "rect": [
+      322,
+      112,
+      107,
+      16
+     ],
+     "clear": 0,
+     "max_width": 103,
+     "at": [
+      325,
+      114
+     ]
+    },
+    {
+     "ja": "だけを信じて、完璧な麻雀を心がけます。",
+     "lines": [
+      "can be seen.",
+      "Aims for",
+      "perfect play."
+     ],
+     "style": "profile",
+     "line_height": 16,
+     "rect": [
+      429,
+      112,
+      83,
+      48
+     ],
+     "clear": 0,
+     "max_width": 79,
+     "at": [
+      432,
+      114
+     ]
+    }
+   ]
+  },
+  "Stat/TexStat": {
+   "labels": [
+    {
+     "region": 10,
+     "ja": "総半荘数",
+     "en": "GAMES",
+     "style": "white_label",
+     "align": "none"
+    },
+    {
+     "region": 8,
+     "ja": "位",
+     "en": "",
+     "style": "white_label",
+     "align": "none"
+    },
+    {
+     "region": 11,
+     "ja": "回",
+     "en": "",
+     "style": "white_label",
+     "align": "none"
+    }
+   ]
+  },
+  "Stat/TexStat2": {
+   "labels": [
+    {
+     "region": 29,
+     "ja": "アガリ役詳細",
+     "en": "Yaku Details",
+     "style": "stat_header"
+    },
+    {
+     "region": 30,
+     "ja": "対局詳細",
+     "en": "Game Details",
+     "style": "stat_header"
+    }
+   ],
+   "patches": [
+    {
+     "ja": "1ページ（通常）",
+     "en": "Page 1",
+     "style": "tab_off",
+     "rect": [
+      1,
+      1,
+      44,
+      16
+     ],
+     "clear": "#000000"
+    },
+    {
+     "ja": "1ページ（選択）",
+     "en": "Page 1",
+     "style": "tab_on",
+     "rect": [
+      4,
+      21,
+      38,
+      12
+     ],
+     "clear": "#632908"
+    },
+    {
+     "ja": "2ページ（通常）",
+     "en": "Page 2",
+     "style": "tab_off",
+     "rect": [
+      47,
+      1,
+      44,
+      16
+     ],
+     "clear": "#000000"
+    },
+    {
+     "ja": "2ページ（選択）",
+     "en": "Page 2",
+     "style": "tab_on",
+     "rect": [
+      50,
+      21,
+      38,
+      12
+     ],
+     "clear": "#632908"
+    },
+    {
+     "ja": "3ページ（通常）",
+     "en": "Page 3",
+     "style": "tab_off",
+     "rect": [
+      93,
+      1,
+      44,
+      16
+     ],
+     "clear": "#000000"
+    },
+    {
+     "ja": "3ページ（選択）",
+     "en": "Page 3",
+     "style": "tab_on",
+     "rect": [
+      96,
+      21,
+      38,
+      12
+     ],
+     "clear": "#632908"
+    },
+    {
+     "ja": "4ページ（通常）",
+     "en": "Page 4",
+     "style": "tab_off",
+     "rect": [
+      139,
+      1,
+      44,
+      16
+     ],
+     "clear": "#000000"
+    },
+    {
+     "ja": "4ページ（選択）",
+     "en": "Page 4",
+     "style": "tab_on",
+     "rect": [
+      142,
+      21,
+      38,
+      12
+     ],
+     "clear": "#632908"
+    },
+    {
+     "ja": "一翻（通常）",
+     "en": "1H",
+     "style": "tab_off",
+     "rect": [
+      1,
+      65,
+      22,
+      16
+     ],
+     "clear": "#000000"
+    },
+    {
+     "ja": "一翻（選択）",
+     "en": "1H",
+     "style": "tab_on",
+     "rect": [
+      4,
+      86,
+      16,
+      10
+     ],
+     "clear": "#000000"
+    },
+    {
+     "ja": "二翻（通常）",
+     "en": "2H",
+     "style": "tab_off",
+     "rect": [
+      25,
+      65,
+      22,
+      16
+     ],
+     "clear": "#000000"
+    },
+    {
+     "ja": "二翻（選択）",
+     "en": "2H",
+     "style": "tab_on",
+     "rect": [
+      28,
+      86,
+      16,
+      10
+     ],
+     "clear": "#000000"
+    },
+    {
+     "ja": "三翻（通常）",
+     "en": "3H",
+     "style": "tab_off",
+     "rect": [
+      49,
+      65,
+      22,
+      16
+     ],
+     "clear": "#000000"
+    },
+    {
+     "ja": "三翻（選択）",
+     "en": "3H",
+     "style": "tab_on",
+     "rect": [
+      52,
+      86,
+      16,
+      10
+     ],
+     "clear": "#000000"
+    },
+    {
+     "ja": "六翻（通常）",
+     "en": "6H",
+     "style": "tab_off",
+     "rect": [
+      73,
+      65,
+      22,
+      16
+     ],
+     "clear": "#000000"
+    },
+    {
+     "ja": "六翻（選択）",
+     "en": "6H",
+     "style": "tab_on",
+     "rect": [
+      76,
+      86,
+      16,
+      10
+     ],
+     "clear": "#000000"
+    },
+    {
+     "ja": "満貫（通常）",
+     "en": "MG",
+     "style": "tab_off",
+     "rect": [
+      97,
+      65,
+      22,
+      16
+     ],
+     "clear": "#000000"
+    },
+    {
+     "ja": "満貫（選択）",
+     "en": "MG",
+     "style": "tab_on",
+     "rect": [
+      100,
+      86,
+      16,
+      10
+     ],
+     "clear": "#000000"
+    },
+    {
+     "ja": "役満（通常）",
+     "en": "YM",
+     "style": "tab_off",
+     "rect": [
+      121,
+      65,
+      22,
+      16
+     ],
+     "clear": "#000000"
+    },
+    {
+     "ja": "役満（選択）",
+     "en": "YM",
+     "style": "tab_on",
+     "rect": [
+      124,
+      86,
+      16,
+      10
+     ],
+     "clear": "#000000"
+    },
+    {
+     "ja": "二倍役満（通常）",
+     "en": "2xYM",
+     "style": "tab_off",
+     "rect": [
+      145,
+      65,
+      44,
+      16
+     ],
+     "clear": "#000000"
+    },
+    {
+     "ja": "二倍役満（選択）",
+     "en": "2xYM",
+     "style": "tab_on",
+     "rect": [
+      148,
+      86,
+      38,
+      10
+     ],
+     "clear": "#000000"
+    }
+   ]
+  },
+  "Stat/TexStat3": {
+   "labels": [
+    {
+     "region": 12,
+     "ja": "アガリ役詳細",
+     "en": "Yaku Details",
+     "style": "menu_button"
+    },
+    {
+     "region": 11,
+     "ja": "対局詳細",
+     "en": "Game Details",
+     "style": "menu_button"
+    }
+   ],
+   "patches": [
+    {
+     "ja": "もどる",
+     "en": "Back",
+     "style": "button_text",
+     "rect": [
+      20,
+      42,
+      43,
+      16
+     ],
+     "sample_x": 63
+    }
+   ]
+  },
+  "Stat/TexStat4": {
+   "comment": "Name entry / save select. Regions 34-37 label the four keyboard pages in the order set by tools/gen_keyboard.py (Latin, numbers, hiragana, katakana).",
+   "labels": [
+    {
+     "region": 0,
+     "ja": "名前の登録",
+     "en": "Name Entry",
+     "style": "stat_header"
+    },
+    {
+     "region": 1,
+     "ja": "キャラクター選択",
+     "en": "Character Select",
+     "style": "stat_header"
+    },
+    {
+     "region": 2,
+     "ja": "セーブデータ選択",
+     "en": "Select Save Data",
+     "style": "stat_header"
+    },
+    {
+     "region": 21,
+     "ja": "新規登録",
+     "en": "New Profile",
+     "style": "white_label"
+    },
+    {
+     "region": 22,
+     "ja": "プレイ",
+     "en": "Play",
+     "style": "white_label"
+    },
+    {
+     "region": 23,
+     "ja": "キャラ変更",
+     "en": "Character",
+     "style": "white_label"
+    },
+    {
+     "region": 24,
+     "ja": "登録削除",
+     "en": "Delete",
+     "style": "white_label"
+    },
+    {
+     "region": 34,
+     "ja": "ひらがな",
+     "en": "ABC",
+     "style": "white_label"
+    },
+    {
+     "region": 35,
+     "ja": "カタカナ",
+     "en": "123",
+     "style": "white_label"
+    },
+    {
+     "region": 36,
+     "ja": "英字",
+     "en": "Hiragana",
+     "style": "white_label"
+    },
+    {
+     "region": 37,
+     "ja": "数字",
+     "en": "Katakana",
+     "style": "white_label"
+    },
+    {
+     "region": 43,
+     "ja": "空白",
+     "en": "Space",
+     "style": "key_label"
+    },
+    {
+     "region": 44,
+     "ja": "戻る",
+     "en": "Back",
+     "style": "key_label"
+    },
+    {
+     "region": 45,
+     "ja": "決定",
+     "en": "OK",
+     "style": "key_label"
+    }
+   ]
+  },
+  "Stat/TexStat6": {
+   "labels": [
+    {
+     "region": 12,
+     "ja": "はい",
+     "en": "Yes",
+     "style": "white_label_dark"
+    },
+    {
+     "region": 13,
+     "ja": "いいえ",
+     "en": "No",
+     "style": "white_label_dark"
+    }
+   ]
+  },
+  "Ranking/Ranking": {
+   "labels": [
+    {
+     "region": 72,
+     "ja": "おめでとう！",
+     "en": "Congratulations!",
+     "style": "congrats"
+    },
+    {
+     "region": 67,
+     "ja": "位",
+     "en": "",
+     "style": "white_label",
+     "align": "none"
+    },
+    {
+     "region": 25,
+     "ja": "(unused 158x42 region over the banner; sprite 39025 is never drawn)",
+     "en": "",
+     "style": "white_label",
+     "align": "none"
+    }
+   ],
+   "patches": [
+    {
+     "ja": "次へ",
+     "en": "Next",
+     "style": "button_text",
+     "rect": [
+      189,
+      103,
+      43,
+      16
+     ],
+     "sample_x": 232
+    },
+    {
+     "ja": "もどる",
+     "en": "Back",
+     "style": "button_text",
+     "rect": [
+      189,
+      121,
+      43,
+      16
+     ],
+     "sample_x": 232
+    },
+    {
+     "ja": "上下にスライド",
+     "en": "Slide",
+     "style": "hint_white",
+     "rect": [
+      205,
+      76,
+      30,
+      20
+     ],
+     "clear": 0
+    }
+   ]
+  },
+  "Opening/TexOpen02d": {
+   "comment": "Opening movie: character name captions.",
+   "labels": [
+    {
+     "region": 0,
+     "ja": "マリオ",
+     "en": "Mario",
+     "style": "open_mario",
+     "align": "none",
+     "keep_height": false
+    },
+    {
+     "region": 3,
+     "ja": "ルイージ",
+     "en": "Luigi",
+     "style": "open_luigi",
+     "align": "none",
+     "keep_height": false
+    },
+    {
+     "region": 1,
+     "ja": "ピーチ",
+     "en": "Peach",
+     "style": "open_peach",
+     "align": "none",
+     "keep_height": false
+    },
+    {
+     "region": 4,
+     "ja": "キノピオ",
+     "en": "Toad",
+     "style": "open_toad",
+     "align": "none",
+     "keep_height": false
+    },
+    {
+     "region": 5,
+     "ja": "ドンキー",
+     "en": "Donkey Kong",
+     "style": "open_dk",
+     "align": "none",
+     "keep_height": false
+    },
+    {
+     "region": 2,
+     "ja": "ヨッシー",
+     "en": "Yoshi",
+     "style": "open_yoshi",
+     "align": "none",
+     "keep_height": false
+    }
+   ]
+  },
+  "Opening/TexOpen02a": {
+   "comment": "Opening movie: black drop shadows behind the name captions (TexOpen02d).",
+   "labels": [
+    {
+     "region": 3,
+     "ja": "マリオ",
+     "en": "Mario",
+     "style": "open_shadow",
+     "align": "none",
+     "keep_height": false
+    },
+    {
+     "region": 2,
+     "ja": "ルイージ",
+     "en": "Luigi",
+     "style": "open_shadow",
+     "align": "none",
+     "keep_height": false
+    }
+   ]
+  },
+  "Opening/TexOpen02b": {
+   "comment": "Opening movie: black drop shadows behind the name captions (TexOpen02d).",
+   "labels": [
+    {
+     "region": 2,
+     "ja": "ピーチ",
+     "en": "Peach",
+     "style": "open_shadow",
+     "align": "none",
+     "keep_height": false
+    },
+    {
+     "region": 3,
+     "ja": "キノピオ",
+     "en": "Toad",
+     "style": "open_shadow",
+     "align": "none",
+     "keep_height": false
+    }
+   ]
+  },
+  "Opening/TexOpen02c": {
+   "comment": "Opening movie: black drop shadows behind the name captions (TexOpen02d).",
+   "labels": [
+    {
+     "region": 2,
+     "ja": "ドンキー",
+     "en": "Donkey Kong",
+     "style": "open_shadow",
+     "align": "none",
+     "keep_height": false
+    },
+    {
+     "region": 3,
+     "ja": "ヨッシー",
+     "en": "Yoshi",
+     "style": "open_shadow",
+     "align": "none",
+     "keep_height": false
+    }
+   ]
+  },
+  "Etc/TitleLogo": {
+   "comment": "Title screen. The logo (region 0) is kept; only the button text is translated.",
+   "patches": [
+    {
+     "ja": "次へ",
+     "en": "Next",
+     "style": "button_text",
+     "rect": [
+      20,
+      82,
+      43,
+      16
+     ],
+     "sample_x": 63
+    }
+   ]
+  },
+  "Challenge/TexChallenge3": {
+   "comment": "Column headers 1-6 and 計 (total) of the challenge score table (func_0203faf0 draws regions 10-16 every 18 px). 'Tot' is 16 px wide, so it has no drop shadow.",
+   "patches": [
+    {
+     "ja": "計",
+     "en": "Tot",
+     "style": "chal_total",
+     "rect": [
+      96,
+      24,
+      16,
+      16
+     ],
+     "clear": 94
+    }
+   ]
+  }
+ }
+}

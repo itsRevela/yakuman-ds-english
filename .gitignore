@@ -1,0 +1,21 @@
+# ROMs and patched outputs (never commit copyrighted game data)
+*.nds
+*.srl
+*.sav
+
+# Build / scratch output
+work/
+out/
+
+# Third-party tool checkouts (separate git repos)
+ghidra/
+rea/
+ds-decomp/
+
+# Third-party binaries (see README for how to fetch)
+tools/bin/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/

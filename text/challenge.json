@@ -1,0 +1,13 @@
+{
+  "description": "Challenge mode messages.",
+  "entries": [
+    {"addr": "0210f944", "ja": "名人コース登場！！", "en": "Master Course unlocked!!"},
+    {"addr": "0210f95c", "ja": "更に手強いステージにチャレンジ。", "en": "Take on even tougher stages."},
+    {"addr": "0210f980", "ja": "クリアできればまさに名人。", "en": "Clear them and you are a true master."},
+    {"addr": "0210f9a4", "ja": "いいえ", "en": "No"},
+    {"addr": "0210f9ac", "ja": "は  い", "en": "Yes"},
+    {"addr": "0210f9b4", "ja": "ピクトチャットで遊ぶために、", "en": "To play PictoChat,"},
+    {"addr": "0210f9d4", "ja": "対局を中断して電源を切りますか？", "en": "quit the game and turn the power off?"},
+    {"addr": "0210f9f8", "ja": "(現在のデータはセーブされません)", "en": "(Your current progress will not be saved.)"}
+  ]
+}

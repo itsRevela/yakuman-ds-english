@@ -1,0 +1,245 @@
+{
+ "MainMenu/TexMenuText": {
+  "comment": "Main menu / mode descriptions shown in Professor Lakitu's box (lines at x=92, y=60+19n).",
+  "regions": "020ee5ac",
+  "style": {
+   "fill": 15,
+   "outline": 1
+  },
+  "max_width": 158,
+  "strips": [
+   {
+    "ja": "１人で遊びます。",
+    "en": "Play by yourself."
+   },
+   {
+    "ja": "「フリー対局」",
+    "en": "\"Free Play\""
+   },
+   {
+    "ja": "「ランキング対局」",
+    "en": "\"Ranking Mode\""
+   },
+   {
+    "ja": "「チャレンジ対局」",
+    "en": "\"Challenge Mode\""
+   },
+   {
+    "ja": "の３つのモードがあります。",
+    "en": "Pick one of these 3 modes."
+   },
+   {
+    "ja": "基本的な役を作りながら",
+    "en": "Learn how to play mahjong"
+   },
+   {
+    "ja": "麻雀の遊び方を覚えます。",
+    "en": "while making basic yaku."
+   },
+   {
+    "ja": "通信を使用して",
+    "en": "Play with up to 4 players"
+   },
+   {
+    "ja": "最大４人で遊びます。",
+    "en": "over a wireless connection."
+   },
+   {
+    "ja": "これまでの対局の詳細や",
+    "en": "Check the details of your"
+   },
+   {
+    "ja": "アガった役を",
+    "en": "past games and the yaku"
+   },
+   {
+    "ja": "確認できます。",
+    "en": "you've won with."
+   },
+   {
+    "ja": "ルールの設定、",
+    "en": "Change the rules, the"
+   },
+   {
+    "ja": "時間制限や音の変更",
+    "en": "time limit, sound settings"
+   },
+   {
+    "ja": "などを行います。",
+    "en": "and more."
+   },
+   {
+    "ja": "用語の解説や点数表",
+    "en": "Look up mahjong terms,"
+   },
+   {
+    "ja": "アガリ役の表などを",
+    "en": "the score table, the yaku"
+   },
+   {
+    "ja": "確認できます。",
+    "en": "list and more."
+   },
+   {
+    "ja": "ルールや対戦相手を",
+    "en": "Choose the rules and your"
+   },
+   {
+    "ja": "自由に選べるモードです。",
+    "en": "opponents freely."
+   },
+   {
+    "ja": "コースごとに設定された",
+    "en": "Clear the conditions set"
+   },
+   {
+    "ja": "条件をクリアしていく",
+    "en": "for each course to advance"
+   },
+   {
+    "ja": "モードです。",
+    "en": "through the stages."
+   },
+   {
+    "ja": "最大１９人のライバル達と",
+    "en": "Compete in the rankings"
+   },
+   {
+    "ja": "ランキングで競う",
+    "en": "against up to 19 rivals"
+   },
+   {
+    "ja": "モードです。",
+    "en": "in this mode."
+   }
+  ]
+ },
+ "MainMenu/TexMenuText2": {
+  "comment": "DS Wireless Play / DS Download Play descriptions.",
+  "regions": "020ee0e4",
+  "style": {
+   "fill": 15,
+   "outline": 1
+  },
+  "max_width": 158,
+  "strips": [
+   {
+    "ja": "全員が自分のデータで",
+    "en": "Everyone plays wirelessly"
+   },
+   {
+    "ja": "通信対局を行います。",
+    "en": "with their own save data."
+   },
+   {
+    "ja": "このモードで遊ぶには",
+    "en": "For this mode, each player"
+   },
+   {
+    "ja": "ニンテンドー DS 本体と",
+    "en": "needs a Nintendo DS and"
+   },
+   {
+    "ja": "カードが人数分必要です。",
+    "en": "a copy of the game."
+   },
+   {
+    "ja": "１枚のカードで",
+    "en": "Play wirelessly with just"
+   },
+   {
+    "ja": "通信対局を行います。",
+    "en": "one game card."
+   },
+   {
+    "ja": "このモードで遊ぶには",
+    "en": "For this mode, you need"
+   },
+   {
+    "ja": "ニンテンドー DS 本体が",
+    "en": "two or more Nintendo DS"
+   },
+   {
+    "ja": "２つ以上必要です。",
+    "en": "systems."
+   }
+  ]
+ },
+ "Challenge/TexChallengeText": {
+  "comment": "Challenge course descriptions in Professor Lakitu's box (4 lines per course; the Japanese shared one strip for line 4).",
+  "regions": "020ee3cc",
+  "style": {
+   "fill": 15,
+   "outline": 1
+  },
+  "max_width": 158,
+  "strip_height": 16,
+  "pad_y": 1,
+  "strips": [
+   {
+    "ja": "ビギナーにも安心の",
+    "en": "This Beginner Course"
+   },
+   {
+    "ja": "初級コースです。",
+    "en": "is safe even for"
+   },
+   {
+    "ja": "全４ステージで",
+    "en": "newcomers. It has"
+   },
+   {
+    "ja": "構成されています。",
+    "en": "4 stages in total."
+   },
+   {
+    "ja": "経験者にもちょっと難しい",
+    "en": "The Intermediate Course"
+   },
+   {
+    "ja": "中級コースです。",
+    "en": "is a little tricky even"
+   },
+   {
+    "ja": "全５ステージで",
+    "en": "for experienced players."
+   },
+   {
+    "ja": "構成されています。",
+    "en": "It has 5 stages in total."
+   },
+   {
+    "ja": "手強い相手が待ち受ける",
+    "en": "The Advanced Course,"
+   },
+   {
+    "ja": "上級コースです。",
+    "en": "where tough opponents"
+   },
+   {
+    "ja": "全６ステージで",
+    "en": "await you. It has"
+   },
+   {
+    "ja": "構成されています。",
+    "en": "6 stages in total."
+   },
+   {
+    "ja": "難易度最高、手応え最高の",
+    "en": "The Master Course: the"
+   },
+   {
+    "ja": "名人コースです。",
+    "en": "toughest and most"
+   },
+   {
+    "ja": "全８ステージで",
+    "en": "rewarding, with"
+   },
+   {
+    "ja": "構成されています。",
+    "en": "8 stages in total."
+   }
+  ]
+ }
+}
