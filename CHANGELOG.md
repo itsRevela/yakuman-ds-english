@@ -5,6 +5,13 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+### Changed
+
+- README rewritten for players first: what the patch is, a step-by-step guide to patching with
+  Rom Patcher JS (including the ROM checksums and the trimmed-ROM pitfall), keeping saves,
+  troubleshooting, what's translated and known limitations. The developer documentation moved
+  below and its status table is up to date.
+
 ## [0.1.0] - 2026-10-20
 
 ### Added
